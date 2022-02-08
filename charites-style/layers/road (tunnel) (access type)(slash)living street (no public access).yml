@@ -1,0 +1,29 @@
+id: road (tunnel) (access type)(slash)living street (no public access)
+type: line
+source: esri
+source-layer: road (tunnel) (access type)
+filter:
+  - '=='
+  - _symbol
+  - 5
+minzoom: 14
+layout:
+  line-cap: round
+  line-join: round
+paint:
+  line-color: '#CCCCCC'
+  line-width:
+    base: 1.2
+    stops:
+      - - 14
+        - 2
+      - - 16
+        - 6
+  line-dasharray:
+    stops:
+      - - 14
+        - - 3
+          - 3
+      - - 16
+        - - 2.6
+          - 1

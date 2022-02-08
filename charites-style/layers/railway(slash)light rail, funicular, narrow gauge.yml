@@ -1,0 +1,28 @@
+id: railway(slash)light rail, funicular, narrow gauge
+type: line
+source: esri
+source-layer: railway
+filter:
+  - '=='
+  - _symbol
+  - 2
+minzoom: 7
+layout:
+  line-cap: round
+  line-join: round
+paint:
+  line-color:
+    stops:
+      - - 7
+        - '#cccccc'
+      - - 9
+        - '#aaaaaa'
+      - - 12
+        - '#666666'
+  line-width:
+    base: 1.2
+    stops:
+      - - 7
+        - 1
+      - - 12
+        - 2

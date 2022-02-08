@@ -1,0 +1,27 @@
+id: path (tunnel)(slash)footway(slash)inner casing
+type: line
+source: esri
+source-layer: path (tunnel)
+filter:
+  - '=='
+  - _symbol
+  - 1
+minzoom: 13
+layout:
+  line-join: round
+  line-cap: round
+paint:
+  line-color: '#FFFFFF'
+  line-width:
+    base: 1.2
+    stops:
+      - - 13
+        - 2.8
+      - - 14
+        - 3
+      - - 15
+        - 3.3
+      - - 17
+        - 3.3
+      - - 18
+        - 3.6

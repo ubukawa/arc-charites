@@ -1,0 +1,23 @@
+id: pier line(slash)breakwater, groyne
+type: line
+source: esri
+source-layer: pier line
+filter:
+  - '=='
+  - _symbol
+  - 0
+minzoom: 11
+layout:
+  line-cap: round
+  line-join: round
+paint:
+  line-color: '#AAAAAA'
+  line-width:
+    base: 1.2
+    stops:
+      - - 11
+        - 1
+      - - 12
+        - 2
+      - - 15
+        - 4

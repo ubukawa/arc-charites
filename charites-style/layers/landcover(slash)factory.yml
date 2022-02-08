@@ -1,0 +1,13 @@
+id: landcover(slash)factory
+type: line
+source: esri
+source-layer: landcover
+filter:
+  - '=='
+  - _symbol
+  - 27
+minzoom: 15
+layout: {}
+paint:
+  line-color: '#C6B3C3'
+  line-width: 0.5

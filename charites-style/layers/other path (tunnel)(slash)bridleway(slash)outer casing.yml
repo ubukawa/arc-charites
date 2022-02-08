@@ -1,0 +1,22 @@
+id: other path (tunnel)(slash)bridleway(slash)outer casing
+type: line
+source: esri
+source-layer: other path (tunnel)
+filter:
+  - '=='
+  - _symbol
+  - 0
+minzoom: 12
+layout: {}
+paint:
+  line-color: '#808080'
+  line-dasharray:
+    - 0.8
+    - 0.4
+  line-width:
+    base: 1.2
+    stops:
+      - - 12
+        - 4.3
+      - - 14
+        - 5.2

@@ -1,0 +1,16 @@
+id: vending machine area(slash)parking tickets
+type: symbol
+source: esri
+source-layer: vending machine area
+filter:
+  - all
+  - - '=='
+    - _symbol
+    - 1
+  - - '=='
+    - $type
+    - Point
+minzoom: 18
+layout:
+  icon-image: vending machine area(slash)parking tickets
+  icon-allow-overlap: true

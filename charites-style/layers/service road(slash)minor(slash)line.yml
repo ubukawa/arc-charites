@@ -1,0 +1,27 @@
+id: service road(slash)minor(slash)line
+type: line
+source: esri
+source-layer: service road
+filter:
+  - '=='
+  - _symbol
+  - 1
+minzoom: 15
+layout:
+  line-cap: round
+  line-join: round
+paint:
+  line-color: '#FFFFFF'
+  line-width:
+    base: 1.2
+    stops:
+      - - 15
+        - 0.8
+      - - 16
+        - 1.9
+      - - 17
+        - 3.15
+      - - 18
+        - 3.9
+      - - 19
+        - 6.9

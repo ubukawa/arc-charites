@@ -1,0 +1,14 @@
+id: railway (tunnel)(slash)disused
+type: symbol
+source: esri
+source-layer: railway (tunnel)
+filter:
+  - '=='
+  - _symbol
+  - 6
+minzoom: 14
+layout:
+  icon-image: railway (tunnel)(slash)disused
+  symbol-placement: line
+  symbol-spacing: 7
+  icon-allow-overlap: true

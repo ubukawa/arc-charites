@@ -1,0 +1,23 @@
+id: amenity line(slash)water slide(slash)inner line
+type: line
+source: esri
+source-layer: amenity line
+filter:
+  - '=='
+  - _symbol
+  - 2
+minzoom: 15
+layout:
+  line-cap: round
+  line-join: round
+paint:
+  line-color: '#aae0cb'
+  line-width:
+    base: 1.2
+    stops:
+      - - 15
+        - 1
+      - - 17
+        - 2
+      - - 18
+        - 4

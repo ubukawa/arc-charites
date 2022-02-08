@@ -1,0 +1,18 @@
+id: wetland(slash)salt marsh(slash)pattern
+type: fill
+source: esri
+source-layer: wetland
+filter:
+  - '=='
+  - _symbol
+  - 4
+minzoom: 9
+layout: {}
+paint:
+  fill-antialias: false
+  fill-pattern:
+    stops:
+      - - 11.5
+        - wetland(slash)other
+      - - 11.6
+        - wetland(slash)salt marsh

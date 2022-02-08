@@ -1,0 +1,23 @@
+id: parking entrance multi-storey
+type: symbol
+source: esri
+source-layer: parking entrance multi-storey
+minzoom: 18
+layout:
+  icon-image: parking entrance multi-storey
+  icon-allow-overlap: false
+  text-font:
+    - Arial Unicode MS Regular
+  text-size: 10
+  text-max-width: 6
+  text-line-height: 1.1
+  text-anchor: top
+  text-offset:
+    - 0
+    - 0.8
+  text-field: '{_name}'
+  text-optional: true
+paint:
+  text-color: '#0066FF'
+  text-halo-color: rgba(255,255,255,0.8)
+  text-halo-width: 1

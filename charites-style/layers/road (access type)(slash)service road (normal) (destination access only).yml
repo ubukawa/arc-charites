@@ -1,0 +1,24 @@
+id: road (access type)(slash)service road (normal) (destination access only)
+type: line
+source: esri
+source-layer: road (access type)
+filter:
+  - '=='
+  - _symbol
+  - 2
+minzoom: 14
+layout:
+  line-cap: round
+  line-join: round
+paint:
+  line-color: '#EAEAEA'
+  line-width:
+    base: 1.2
+    stops:
+      - - 14
+        - 2
+      - - 16
+        - 4
+  line-dasharray:
+    - 1
+    - 2

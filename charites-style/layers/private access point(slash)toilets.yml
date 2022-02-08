@@ -1,0 +1,12 @@
+id: private access point(slash)toilets
+type: symbol
+source: esri
+source-layer: private access point
+filter:
+  - '=='
+  - _symbol
+  - 18
+minzoom: 18
+layout:
+  icon-image: private access point(slash)toilets
+  icon-allow-overlap: false

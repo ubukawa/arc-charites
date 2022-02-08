@@ -1,0 +1,12 @@
+id: amenity point(slash)emergency phone
+type: symbol
+source: esri
+source-layer: amenity point
+filter:
+  - '=='
+  - _symbol
+  - 102
+minzoom: 18
+layout:
+  icon-image: amenity point(slash)emergency phone
+  icon-allow-overlap: false

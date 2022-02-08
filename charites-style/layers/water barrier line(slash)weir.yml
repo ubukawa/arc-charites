@@ -1,0 +1,17 @@
+id: water barrier line(slash)weir
+type: line
+source: esri
+source-layer: water barrier line
+filter:
+  - '=='
+  - _symbol
+  - 2
+minzoom: 12
+layout:
+  line-join: round
+paint:
+  line-color: '#AAAAAA'
+  line-dasharray:
+    - 2
+    - 2
+  line-width: 2

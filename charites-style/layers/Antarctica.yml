@@ -1,0 +1,8 @@
+id: Antarctica
+type: fill
+source: esri
+source-layer: Antarctica
+minzoom: 4
+layout: {}
+paint:
+  fill-color: '#DDECEC'

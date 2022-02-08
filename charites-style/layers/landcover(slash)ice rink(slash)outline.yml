@@ -1,0 +1,13 @@
+id: landcover(slash)ice rink(slash)outline
+type: line
+source: esri
+source-layer: landcover
+filter:
+  - '=='
+  - _symbol
+  - 54
+minzoom: 9
+layout: {}
+paint:
+  line-color: '#28C98A'
+  line-width: 0.5

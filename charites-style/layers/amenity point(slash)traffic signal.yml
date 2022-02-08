@@ -1,0 +1,12 @@
+id: amenity point(slash)traffic signal
+type: symbol
+source: esri
+source-layer: amenity point
+filter:
+  - '=='
+  - _symbol
+  - 78
+minzoom: 16
+layout:
+  icon-image: amenity point(slash)traffic signal
+  icon-allow-overlap: false

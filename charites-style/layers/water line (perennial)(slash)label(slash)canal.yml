@@ -1,0 +1,21 @@
+id: water line (perennial)(slash)label(slash)canal
+type: symbol
+source: esri
+source-layer: water line (perennial)(slash)label
+filter:
+  - '=='
+  - _label_class
+  - 1
+minzoom: 12
+layout:
+  symbol-placement: line
+  text-font:
+    - Arial Unicode MS Regular
+  text-size: 10
+  text-field: '{_name}'
+  text-max-angle: 30
+  text-optional: true
+paint:
+  text-color: '#4D80B3'
+  text-halo-color: rgba(255,255,255,0.8)
+  text-halo-width: 1

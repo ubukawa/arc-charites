@@ -1,0 +1,12 @@
+id: landcover(slash)religious(slash)fill
+type: fill
+source: esri
+source-layer: landcover
+filter:
+  - '=='
+  - _symbol
+  - 20
+minzoom: 12
+layout: {}
+paint:
+  fill-color: '#d0d0d0'

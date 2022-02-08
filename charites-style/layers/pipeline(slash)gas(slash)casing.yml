@@ -1,0 +1,27 @@
+id: pipeline(slash)gas(slash)casing
+type: line
+source: esri
+source-layer: pipeline
+filter:
+  - '=='
+  - _symbol
+  - 0
+minzoom: 13
+layout:
+  line-join: round
+paint:
+  line-color: '#909090'
+  line-width:
+    stops:
+      - - 13
+        - 0.7
+      - - 14
+        - 1
+      - - 15
+        - 1.5
+      - - 16
+        - 2
+      - - 17
+        - 3
+      - - 18
+        - 4

@@ -1,0 +1,30 @@
+id: road (bridge)(slash)label(slash)living street
+type: symbol
+source: esri
+source-layer: road (bridge)(slash)label
+filter:
+  - '=='
+  - _label_class
+  - 12
+minzoom: 14
+layout:
+  symbol-placement: line
+  symbol-spacing: 300
+  text-font:
+    - Arial Unicode MS Regular
+  text-size:
+    stops:
+      - - 14
+        - 8
+      - - 15
+        - 9
+      - - 16
+        - 11
+      - - 18
+        - 12
+  text-field: '{_name}'
+  text-optional: true
+paint:
+  text-color: '#000000'
+  text-halo-color: '#EDEDED'
+  text-halo-width: 1

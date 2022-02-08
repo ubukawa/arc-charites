@@ -1,0 +1,17 @@
+id: landcover(slash)pitch, track(slash)fill
+type: fill
+source: esri
+source-layer: landcover
+filter:
+  - '=='
+  - _symbol
+  - 5
+minzoom: 9
+layout: {}
+paint:
+  fill-color:
+    stops:
+      - - 11.5
+        - '#c4e9da'
+      - - 11.6
+        - '#AAE0CB'

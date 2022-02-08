@@ -1,0 +1,21 @@
+id: shop area(slash)houseware
+type: symbol
+source: esri
+source-layer: shop area
+filter:
+  - all
+  - - '=='
+    - _symbol
+    - 63
+  - - '=='
+    - $type
+    - Point
+minzoom: 16
+layout:
+  icon-image:
+    stops:
+      - - 16.5
+        - shop area(slash)houseware_1
+      - - 16.6
+        - shop area(slash)houseware
+  icon-allow-overlap: true

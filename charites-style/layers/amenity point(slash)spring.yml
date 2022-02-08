@@ -1,0 +1,33 @@
+id: amenity point(slash)spring
+type: symbol
+source: esri
+source-layer: amenity point
+filter:
+  - '=='
+  - _symbol
+  - 2
+minzoom: 13
+layout:
+  icon-image: amenity point(slash)spring
+  icon-allow-overlap: false
+  text-font:
+    - Arial Unicode MS Regular
+  text-size: 10
+  text-max-width: 6
+  text-line-height: 1.1
+  text-anchor: top
+  text-offset:
+    - 0
+    - 0.8
+  text-field: '{_name11}'
+  text-optional: true
+paint:
+  text-color: '#4D80B3'
+  text-opacity:
+    stops:
+      - - 14.5
+        - 0
+      - - 14.6
+        - 1
+  text-halo-color: rgba(255,255,255,0.8)
+  text-halo-width: 1

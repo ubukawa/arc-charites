@@ -1,0 +1,16 @@
+id: amenity area(slash)motorcycle parking
+type: symbol
+source: esri
+source-layer: amenity area
+filter:
+  - all
+  - - '=='
+    - _symbol
+    - 103
+  - - '=='
+    - $type
+    - Point
+minzoom: 17
+layout:
+  icon-image: amenity area(slash)motorcycle parking
+  icon-allow-overlap: true

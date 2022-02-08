@@ -1,0 +1,12 @@
+id: landcover(slash)allotments(slash)pattern
+type: fill
+source: esri
+source-layer: landcover
+filter:
+  - '=='
+  - _symbol
+  - 24
+minzoom: 12
+layout: {}
+paint:
+  fill-pattern: landcover(slash)allotments

@@ -1,0 +1,17 @@
+id: amenity area(slash)childcare
+type: circle
+source: esri
+source-layer: amenity area
+filter:
+  - all
+  - - '=='
+    - _symbol
+    - 81
+  - - '=='
+    - $type
+    - Point
+minzoom: 17
+layout: {}
+paint:
+  circle-radius: 3
+  circle-color: '#4D4D00'

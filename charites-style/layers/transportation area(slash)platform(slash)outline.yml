@@ -1,0 +1,15 @@
+id: transportation area(slash)platform(slash)outline
+type: line
+source: esri
+source-layer: transportation area
+filter:
+  - '=='
+  - _symbol
+  - 4
+minzoom: 13
+layout:
+  line-cap: round
+  line-join: round
+paint:
+  line-color: '#808080'
+  line-width: 2

@@ -1,0 +1,17 @@
+id: water line (intermittent)(slash)ditch, drain(slash)casing
+type: line
+source: esri
+source-layer: water line (intermittent)
+filter:
+  - '=='
+  - _symbol
+  - 6
+minzoom: 14
+layout:
+  line-join: round
+paint:
+  line-color: '#FFFFFF'
+  line-dasharray:
+    - 4
+    - 3
+  line-width: 2.5

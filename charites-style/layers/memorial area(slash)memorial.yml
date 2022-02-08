@@ -1,0 +1,16 @@
+id: memorial area(slash)memorial
+type: symbol
+source: esri
+source-layer: memorial area
+filter:
+  - all
+  - - '=='
+    - _symbol
+    - 2
+  - - '=='
+    - $type
+    - Point
+minzoom: 16
+layout:
+  icon-image: memorial area(slash)memorial
+  icon-allow-overlap: true

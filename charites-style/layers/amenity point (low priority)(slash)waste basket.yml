@@ -1,0 +1,12 @@
+id: amenity point (low priority)(slash)waste basket
+type: symbol
+source: esri
+source-layer: amenity point (low priority)
+filter:
+  - '=='
+  - _symbol
+  - 3
+minzoom: 18
+layout:
+  icon-image: amenity point (low priority)(slash)waste basket
+  icon-allow-overlap: false

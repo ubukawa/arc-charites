@@ -1,0 +1,15 @@
+id: railway (bridge)(slash)miniature(slash)symbol
+type: symbol
+source: esri
+source-layer: railway (bridge)
+filter:
+  - '=='
+  - _symbol
+  - 3
+minzoom: 14
+layout:
+  symbol-placement: line
+  icon-image: railway (bridge)(slash)miniature(slash)0
+  symbol-spacing: 30
+  icon-rotation-alignment: map
+  icon-allow-overlap: true

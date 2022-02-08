@@ -1,0 +1,13 @@
+id: landcover(slash)farmland(slash)fill
+type: fill
+source: esri
+source-layer: landcover
+filter:
+  - '=='
+  - _symbol
+  - 33
+minzoom: 4
+layout: {}
+paint:
+  fill-antialias: false
+  fill-color: '#eef0d5'

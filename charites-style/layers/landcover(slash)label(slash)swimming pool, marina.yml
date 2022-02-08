@@ -1,0 +1,42 @@
+id: landcover(slash)label(slash)swimming pool, marina
+type: symbol
+source: esri
+source-layer: landcover(slash)label
+filter:
+  - '=='
+  - _label_class
+  - 2
+minzoom: 14
+layout:
+  text-font:
+    - Arial Unicode MS Regular
+  text-size:
+    stops:
+      - - 13
+        - 10
+      - - 15
+        - 11
+      - - 17
+        - 12
+  text-max-width:
+    stops:
+      - - 13
+        - 5
+      - - 15
+        - 7
+      - - 17
+        - 8
+  text-line-height:
+    stops:
+      - - 13
+        - 1
+      - - 15
+        - 1.15
+      - - 17
+        - 1.2
+  text-field: '{_name}'
+  text-optional: true
+paint:
+  text-color: '#576DDF'
+  text-halo-color: rgba(255,255,255,0.8)
+  text-halo-width: 1

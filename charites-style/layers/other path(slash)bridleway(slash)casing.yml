@@ -1,0 +1,15 @@
+id: other path(slash)bridleway(slash)casing
+type: line
+source: esri
+source-layer: other path
+filter:
+  - '=='
+  - _symbol
+  - 0
+minzoom: 14
+layout:
+  line-cap: round
+  line-join: round
+paint:
+  line-color: rgba(255,255,255,0.4)
+  line-width: 3.2

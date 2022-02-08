@@ -1,0 +1,15 @@
+id: water barrier area(slash)dam(slash)outline
+type: line
+source: esri
+source-layer: water barrier area
+filter:
+  - '=='
+  - _symbol
+  - 0
+minzoom: 12
+layout:
+  line-cap: round
+  line-join: round
+paint:
+  line-color: '#444444'
+  line-width: 2

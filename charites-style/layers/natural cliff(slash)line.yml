@@ -1,0 +1,11 @@
+id: natural cliff(slash)line
+type: line
+source: esri
+source-layer: natural cliff
+minzoom: 12
+layout:
+  line-cap: round
+  line-join: round
+paint:
+  line-color: '#999999'
+  line-width: 1

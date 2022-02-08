@@ -1,0 +1,12 @@
+id: amenity point (low priority)(slash)stile
+type: symbol
+source: esri
+source-layer: amenity point (low priority)
+filter:
+  - '=='
+  - _symbol
+  - 9
+minzoom: 16
+layout:
+  icon-image: amenity point (low priority)(slash)stile
+  icon-allow-overlap: false

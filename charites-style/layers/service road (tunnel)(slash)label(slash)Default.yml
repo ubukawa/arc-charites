@@ -1,0 +1,20 @@
+id: service road (tunnel)(slash)label(slash)Default
+type: symbol
+source: esri
+source-layer: service road (tunnel)(slash)label
+minzoom: 15
+layout:
+  symbol-placement: line
+  symbol-spacing: 300
+  text-font:
+    - Arial Unicode MS Regular
+  text-size:
+    stops:
+      - - 15
+        - 9
+      - - 16
+        - 11
+  text-field: '{_name}'
+  text-optional: true
+paint:
+  text-color: '#000000'

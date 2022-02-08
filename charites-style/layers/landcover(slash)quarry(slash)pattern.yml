@@ -1,0 +1,13 @@
+id: landcover(slash)quarry(slash)pattern
+type: fill
+source: esri
+source-layer: landcover
+filter:
+  - '=='
+  - _symbol
+  - 28
+minzoom: 9
+layout: {}
+paint:
+  fill-antialias: false
+  fill-pattern: landcover(slash)quarry

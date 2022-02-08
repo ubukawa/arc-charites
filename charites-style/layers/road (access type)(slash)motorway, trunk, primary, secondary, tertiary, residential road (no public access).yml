@@ -1,0 +1,31 @@
+id: >-
+  road (access type)(slash)motorway, trunk, primary, secondary, tertiary,
+  residential road (no public access)
+type: line
+source: esri
+source-layer: road (access type)
+filter:
+  - '=='
+  - _symbol
+  - 4
+minzoom: 14
+layout:
+  line-cap: round
+  line-join: round
+paint:
+  line-color: '#EAEAEA'
+  line-width:
+    base: 1.2
+    stops:
+      - - 14
+        - 2
+      - - 16
+        - 6
+  line-dasharray:
+    stops:
+      - - 14
+        - - 4
+          - 2
+      - - 16
+        - - 2.5
+          - 1

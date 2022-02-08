@@ -1,0 +1,16 @@
+id: shop area(slash)supermarket
+type: symbol
+source: esri
+source-layer: shop area
+filter:
+  - all
+  - - '=='
+    - _symbol
+    - 51
+  - - '=='
+    - $type
+    - Point
+minzoom: 15
+layout:
+  icon-image: shop area(slash)supermarket
+  icon-allow-overlap: true

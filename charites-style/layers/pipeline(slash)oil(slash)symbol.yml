@@ -1,0 +1,28 @@
+id: pipeline(slash)oil(slash)symbol
+type: symbol
+source: esri
+source-layer: pipeline
+filter:
+  - '=='
+  - _symbol
+  - 1
+minzoom: 13
+layout:
+  symbol-placement: line
+  symbol-avoid-edges: true
+  symbol-spacing:
+    stops:
+      - - 13
+        - 10
+      - - 18
+        - 30
+  icon-image: pipeline(slash)oil
+  icon-rotate: 90
+  icon-rotation-alignment: map
+  icon-allow-overlap: true
+  icon-size:
+    stops:
+      - - 11
+        - 0.2
+      - - 18
+        - 1

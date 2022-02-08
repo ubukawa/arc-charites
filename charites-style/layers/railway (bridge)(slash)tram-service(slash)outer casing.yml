@@ -1,0 +1,14 @@
+id: railway (bridge)(slash)tram-service(slash)outer casing
+type: line
+source: esri
+source-layer: railway (bridge)
+filter:
+  - '=='
+  - _symbol
+  - 5
+minzoom: 14
+layout:
+  line-join: round
+paint:
+  line-color: '#000000'
+  line-width: 5

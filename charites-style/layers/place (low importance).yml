@@ -1,0 +1,57 @@
+id: place (low importance)
+type: symbol
+source: esri
+source-layer: place (low importance)
+minzoom: 8
+maxzoom: 15
+layout:
+  icon-image: place (low importance)
+  icon-allow-overlap: true
+  text-font:
+    - Arial Unicode MS Regular
+  text-size:
+    stops:
+      - - 8
+        - 10
+      - - 10
+        - 11
+      - - 11
+        - 13
+      - - 13
+        - 15
+  text-max-width:
+    stops:
+      - - 8
+        - 9
+      - - 10
+        - 10
+      - - 11
+        - 11
+      - - 13
+        - 12
+  text-padding:
+    stops:
+      - - 8
+        - 7
+      - - 10
+        - 7.7
+      - - 11
+        - 8.4
+      - - 13
+        - 10.5
+  text-line-height:
+    stops:
+      - - 8
+        - 1
+      - - 10
+        - 1.13
+      - - 11
+        - 1.16
+      - - 13
+        - 1.2
+  text-field: '{_name}'
+  text-optional: true
+paint:
+  text-color: '#222222'
+  text-halo-color: rgba(255,255,255,0.8)
+  text-halo-width: 1.5

@@ -1,0 +1,13 @@
+id: landcover(slash)sand
+type: fill
+source: esri
+source-layer: landcover
+filter:
+  - '=='
+  - _symbol
+  - 43
+minzoom: 4
+layout: {}
+paint:
+  fill-antialias: false
+  fill-color: '#f5e9c6'

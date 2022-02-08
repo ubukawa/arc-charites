@@ -1,0 +1,13 @@
+id: landcover(slash)quarry(slash)outline
+type: line
+source: esri
+source-layer: landcover
+filter:
+  - '=='
+  - _symbol
+  - 28
+minzoom: 12
+layout: {}
+paint:
+  line-color: '#aca9a9'
+  line-width: 0.5

@@ -1,0 +1,15 @@
+id: area barrier(slash)city wall
+type: line
+source: esri
+source-layer: area barrier
+filter:
+  - '=='
+  - _symbol
+  - 2
+minzoom: 14
+layout:
+  line-cap: round
+  line-join: round
+paint:
+  line-color: '#7c7c7c'
+  line-width: 1

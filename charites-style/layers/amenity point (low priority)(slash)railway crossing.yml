@@ -1,0 +1,17 @@
+id: amenity point (low priority)(slash)railway crossing
+type: symbol
+source: esri
+source-layer: amenity point (low priority)
+filter:
+  - '=='
+  - _symbol
+  - 6
+minzoom: 14
+layout:
+  icon-image:
+    stops:
+      - - 14.5
+        - amenity point (low priority)(slash)railway crossing_1
+      - - 14.6
+        - amenity point (low priority)(slash)railway crossing
+  icon-allow-overlap: false

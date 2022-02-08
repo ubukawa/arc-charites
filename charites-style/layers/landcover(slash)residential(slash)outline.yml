@@ -1,0 +1,13 @@
+id: landcover(slash)residential(slash)outline
+type: line
+source: esri
+source-layer: landcover
+filter:
+  - '=='
+  - _symbol
+  - 26
+minzoom: 15
+layout: {}
+paint:
+  line-color: '#b9b9b9'
+  line-width: 0.5

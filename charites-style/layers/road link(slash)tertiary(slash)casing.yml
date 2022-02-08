@@ -1,0 +1,28 @@
+id: road link(slash)tertiary(slash)casing
+type: line
+source: esri
+source-layer: road link
+filter:
+  - '=='
+  - _symbol
+  - 4
+minzoom: 11
+layout:
+  line-join: round
+paint:
+  line-color: '#8f8f8f'
+  line-width:
+    base: 1.2
+    stops:
+      - - 11
+        - 1.5
+      - - 12
+        - 3
+      - - 14
+        - 7
+      - - 16
+        - 12
+      - - 17
+        - 13
+      - - 18
+        - 16

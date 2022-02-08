@@ -1,0 +1,15 @@
+id: track(slash)other(slash)casing
+type: line
+source: esri
+source-layer: track
+filter:
+  - '=='
+  - _symbol
+  - 5
+minzoom: 14
+layout:
+  line-cap: round
+  line-join: round
+paint:
+  line-color: rgba(255,255,255,0.4)
+  line-width: 3.5

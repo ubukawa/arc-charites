@@ -1,0 +1,13 @@
+id: landcover(slash)ferry terminal, bus station(slash)outline
+type: line
+source: esri
+source-layer: landcover
+filter:
+  - '=='
+  - _symbol
+  - 10
+minzoom: 14
+layout: {}
+paint:
+  line-color: '#AB9254'
+  line-width: 0.2

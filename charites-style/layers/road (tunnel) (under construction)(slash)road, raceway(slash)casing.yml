@@ -1,0 +1,23 @@
+id: road (tunnel) (under construction)(slash)road, raceway(slash)casing
+type: line
+source: esri
+source-layer: road (tunnel) (under construction)
+filter:
+  - '=='
+  - _symbol
+  - 13
+minzoom: 14
+layout: {}
+paint:
+  line-color: '#aaaaaa'
+  line-width:
+    base: 1.2
+    stops:
+      - - 14
+        - 2
+      - - 15
+        - 3.5
+      - - 16
+        - 7
+      - - 17
+        - 8

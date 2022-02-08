@@ -1,0 +1,18 @@
+id: railway (bridge)(slash)monorail(slash)line
+type: line
+source: esri
+source-layer: railway (bridge)
+filter:
+  - '=='
+  - _symbol
+  - 9
+minzoom: 13
+layout:
+  line-cap: round
+  line-join: round
+paint:
+  line-color: '#777777'
+  line-dasharray:
+    - 2
+    - 3
+  line-width: 3

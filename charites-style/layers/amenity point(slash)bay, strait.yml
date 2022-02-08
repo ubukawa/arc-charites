@@ -1,0 +1,17 @@
+id: amenity point(slash)bay, strait
+type: symbol
+source: esri
+source-layer: amenity point
+minzoom: 13
+layout:
+  text-font:
+    - Arial Unicode MS Regular
+  text-size: 10
+  text-max-width: 6
+  text-line-height: 1.1
+  text-field: '{_name10}'
+  text-optional: true
+paint:
+  text-color: '#4D80B3'
+  text-halo-color: rgba(255,255,255,0.8)
+  text-halo-width: 1

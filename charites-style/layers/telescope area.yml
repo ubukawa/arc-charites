@@ -1,0 +1,12 @@
+id: telescope area
+type: symbol
+source: esri
+source-layer: telescope area
+filter:
+  - '=='
+  - $type
+  - Point
+minzoom: 12
+layout:
+  icon-image: telescope area
+  icon-allow-overlap: true

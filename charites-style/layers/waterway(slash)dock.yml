@@ -1,0 +1,13 @@
+id: waterway(slash)dock
+type: fill
+source: esri
+source-layer: waterway
+filter:
+  - '=='
+  - _symbol
+  - 0
+minzoom: 8
+layout: {}
+paint:
+  fill-antialias: false
+  fill-color: '#AAD3DF'

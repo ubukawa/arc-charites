@@ -1,0 +1,13 @@
+id: landcover(slash)swimming pool(slash)outline
+type: line
+source: esri
+source-layer: landcover
+filter:
+  - '=='
+  - _symbol
+  - 2
+minzoom: 16
+layout: {}
+paint:
+  line-color: '#4AB9D9'
+  line-width: 0.5

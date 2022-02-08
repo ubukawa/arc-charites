@@ -1,0 +1,45 @@
+id: place (small)(slash)hamlet
+type: symbol
+source: esri
+source-layer: place (small)
+minzoom: 13
+maxzoom: 17
+layout:
+  text-font:
+    - Arial Unicode MS Regular
+  text-size:
+    stops:
+      - - 14
+        - 10
+      - - 15
+        - 12
+  text-max-width: 7
+  text-padding:
+    stops:
+      - - 14
+        - 7
+      - - 15
+        - 8.4
+  text-line-height:
+    stops:
+      - - 14
+        - 1.1
+      - - 15
+        - 1.2
+  text-letter-spacing: 0.05
+  text-field: '{_name2}'
+  text-optional: true
+paint:
+  text-color:
+    stops:
+      - - 14.5
+        - '#222222'
+      - - 14.6
+        - '#777777'
+  text-halo-color:
+    stops:
+      - - 14
+        - rgba(255,255,255,0.6)
+      - - 15
+        - '#ffffff'
+  text-halo-width: 1.5

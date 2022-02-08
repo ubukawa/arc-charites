@@ -1,0 +1,17 @@
+id: >-
+  aerialway(slash)chair lift, drag lift, t-bar, j-bar, platter, rope tow, zip
+  line(slash)line
+type: line
+source: esri
+source-layer: aerialway
+filter:
+  - '=='
+  - _symbol
+  - 0
+minzoom: 11
+layout:
+  line-cap: round
+  line-join: round
+paint:
+  line-color: '#808080'
+  line-width: 1

@@ -1,0 +1,21 @@
+id: pipeline(slash)other(slash)line
+type: line
+source: esri
+source-layer: pipeline
+filter:
+  - '=='
+  - _symbol
+  - 3
+minzoom: 16
+layout:
+  line-join: round
+paint:
+  line-color: '#f2efe9'
+  line-width:
+    stops:
+      - - 16
+        - 1
+      - - 17
+        - 2
+      - - 18
+        - 3

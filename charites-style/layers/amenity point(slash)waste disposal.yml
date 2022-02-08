@@ -1,0 +1,12 @@
+id: amenity point(slash)waste disposal
+type: symbol
+source: esri
+source-layer: amenity point
+filter:
+  - '=='
+  - _symbol
+  - 118
+minzoom: 18
+layout:
+  icon-image: amenity point(slash)waste disposal
+  icon-allow-overlap: false

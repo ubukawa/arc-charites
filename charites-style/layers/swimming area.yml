@@ -1,0 +1,12 @@
+id: swimming area
+type: symbol
+source: esri
+source-layer: swimming area
+filter:
+  - '=='
+  - $type
+  - Point
+minzoom: 16
+layout:
+  icon-image: swimming area
+  icon-allow-overlap: true

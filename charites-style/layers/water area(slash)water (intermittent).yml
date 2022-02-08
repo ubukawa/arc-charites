@@ -1,0 +1,13 @@
+id: water area(slash)water (intermittent)
+type: fill
+source: esri
+source-layer: water area
+filter:
+  - '=='
+  - _symbol
+  - 5
+minzoom: 0
+layout: {}
+paint:
+  fill-antialias: false
+  fill-pattern: water area(slash)water (intermittent)

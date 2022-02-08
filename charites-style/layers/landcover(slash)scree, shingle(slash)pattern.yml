@@ -1,0 +1,13 @@
+id: landcover(slash)scree, shingle(slash)pattern
+type: fill
+source: esri
+source-layer: landcover
+filter:
+  - '=='
+  - _symbol
+  - 42
+minzoom: 12
+layout: {}
+paint:
+  fill-antialias: false
+  fill-pattern: landcover(slash)scree, shingle

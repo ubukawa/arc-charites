@@ -1,0 +1,16 @@
+id: tower area(slash)lattice lighting
+type: symbol
+source: esri
+source-layer: tower area
+filter:
+  - all
+  - - '=='
+    - _symbol
+    - 7
+  - - '=='
+    - $type
+    - Point
+minzoom: 17
+layout:
+  icon-image: tower area(slash)lattice lighting
+  icon-allow-overlap: true

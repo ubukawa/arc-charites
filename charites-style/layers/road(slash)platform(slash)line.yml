@@ -1,0 +1,15 @@
+id: road(slash)platform(slash)line
+type: line
+source: esri
+source-layer: road
+filter:
+  - '=='
+  - _symbol
+  - 10
+minzoom: 15
+layout:
+  line-cap: round
+  line-join: round
+paint:
+  line-color: '#BBBBBB'
+  line-width: 4

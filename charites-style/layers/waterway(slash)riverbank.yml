@@ -1,0 +1,13 @@
+id: waterway(slash)riverbank
+type: fill
+source: esri
+source-layer: waterway
+filter:
+  - '=='
+  - _symbol
+  - 2
+minzoom: 4
+layout: {}
+paint:
+  fill-antialias: false
+  fill-color: '#aad3df'

@@ -1,0 +1,12 @@
+id: landcover(slash)miniature golf
+type: fill
+source: esri
+source-layer: landcover
+filter:
+  - '=='
+  - _symbol
+  - 46
+minzoom: 14
+layout: {}
+paint:
+  fill-color: '#B5E3B5'

@@ -1,0 +1,13 @@
+id: landcover(slash)religious(slash)outline
+type: line
+source: esri
+source-layer: landcover
+filter:
+  - '=='
+  - _symbol
+  - 20
+minzoom: 14
+layout: {}
+paint:
+  line-color: '#848484'
+  line-width: 0.3

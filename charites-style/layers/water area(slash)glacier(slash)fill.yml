@@ -1,0 +1,13 @@
+id: water area(slash)glacier(slash)fill
+type: fill
+source: esri
+source-layer: water area
+filter:
+  - '=='
+  - _symbol
+  - 0
+minzoom: 4
+layout: {}
+paint:
+  fill-antialias: false
+  fill-color: '#DDECEC'

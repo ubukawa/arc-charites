@@ -1,0 +1,13 @@
+id: waterway(slash)riverbank (intermittent)
+type: fill
+source: esri
+source-layer: waterway
+filter:
+  - '=='
+  - _symbol
+  - 1
+minzoom: 4
+layout: {}
+paint:
+  fill-antialias: false
+  fill-pattern: waterway(slash)riverbank (intermittent)

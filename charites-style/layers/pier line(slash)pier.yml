@@ -1,0 +1,25 @@
+id: pier line(slash)pier
+type: line
+source: esri
+source-layer: pier line
+filter:
+  - '=='
+  - _symbol
+  - 1
+minzoom: 11
+layout:
+  line-cap: square
+  line-join: round
+paint:
+  line-color: '#F2EFE9'
+  line-width:
+    base: 1.2
+    stops:
+      - - 11
+        - 0.5
+      - - 12
+        - 1
+      - - 14
+        - 2
+      - - 16
+        - 4

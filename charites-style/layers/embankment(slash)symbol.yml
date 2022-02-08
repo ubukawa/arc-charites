@@ -1,0 +1,11 @@
+id: embankment(slash)symbol
+type: symbol
+source: esri
+source-layer: embankment
+minzoom: 14
+layout:
+  symbol-placement: line
+  icon-image: embankment(slash)0
+  symbol-spacing: 13.3333
+  icon-rotation-alignment: map
+  icon-allow-overlap: true

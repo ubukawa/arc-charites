@@ -1,0 +1,14 @@
+id: amenity line(slash)slipway
+type: symbol
+source: esri
+source-layer: amenity line
+filter:
+  - '=='
+  - _symbol
+  - 1
+minzoom: 16
+layout:
+  symbol-placement: line
+  icon-image: amenity line(slash)slipway
+  icon-rotation-alignment: viewport
+  icon-allow-overlap: false

@@ -1,0 +1,41 @@
+id: road (tunnel)(slash)trunk(slash)casing
+type: line
+source: esri
+source-layer: road (tunnel)
+filter:
+  - '=='
+  - _symbol
+  - 1
+minzoom: 11
+layout:
+  line-join: round
+paint:
+  line-dasharray:
+    stops:
+      - - 11
+        - - 0.8
+          - 0.4
+      - - 16
+        - - 0.15
+          - 0.08
+  line-color:
+    stops:
+      - - 11
+        - '#cf6649'
+      - - 12
+        - '#c84e2f'
+  line-width:
+    base: 1.2
+    stops:
+      - - 11
+        - 3.5
+      - - 12
+        - 6
+      - - 15
+        - 10
+      - - 16
+        - 18
+      - - 17
+        - 21
+      - - 18
+        - 27

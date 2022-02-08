@@ -1,0 +1,16 @@
+id: amenity area(slash)drinking water
+type: symbol
+source: esri
+source-layer: amenity area
+filter:
+  - all
+  - - '=='
+    - _symbol
+    - 23
+  - - '=='
+    - $type
+    - Point
+minzoom: 16
+layout:
+  icon-image: amenity area(slash)drinking water
+  icon-allow-overlap: true

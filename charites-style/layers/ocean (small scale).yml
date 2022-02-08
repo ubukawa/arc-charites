@@ -1,0 +1,8 @@
+id: ocean (small scale)
+type: fill
+source: esri
+source-layer: ocean (small scale)
+maxzoom: 9
+paint:
+  fill-antialias: false
+  fill-color: '#aad3df'

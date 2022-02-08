@@ -1,0 +1,18 @@
+id: water barrier point(slash)label(slash)dam, weir
+type: symbol
+source: esri
+source-layer: water barrier point
+minzoom: 16
+layout:
+  text-font:
+    - Arial Unicode MS Regular
+  text-size: 10
+  text-offset:
+    - 0
+    - 0.8
+  text-field: '{_name}'
+  text-optional: true
+paint:
+  text-color: '#222222'
+  text-halo-color: rgba(255,255,255,0.8)
+  text-halo-width: 1

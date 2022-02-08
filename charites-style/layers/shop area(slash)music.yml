@@ -1,0 +1,21 @@
+id: shop area(slash)music
+type: symbol
+source: esri
+source-layer: shop area
+filter:
+  - all
+  - - '=='
+    - _symbol
+    - 38
+  - - '=='
+    - $type
+    - Point
+minzoom: 16
+layout:
+  icon-image:
+    stops:
+      - - 16.5
+        - shop area(slash)music_1
+      - - 16.6
+        - shop area(slash)music
+  icon-allow-overlap: true

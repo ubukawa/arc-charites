@@ -1,0 +1,15 @@
+id: railway(slash)monorail(slash)casing
+type: line
+source: esri
+source-layer: railway
+filter:
+  - '=='
+  - _symbol
+  - 9
+minzoom: 13
+layout:
+  line-cap: round
+  line-join: round
+paint:
+  line-color: rgba(255,255,255,0.4)
+  line-width: 4

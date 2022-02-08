@@ -1,0 +1,16 @@
+id: amenity area(slash)advertising column
+type: symbol
+source: esri
+source-layer: amenity area
+filter:
+  - all
+  - - '=='
+    - _symbol
+    - 15
+  - - '=='
+    - $type
+    - Point
+minzoom: 18
+layout:
+  icon-image: amenity area(slash)advertising column
+  icon-allow-overlap: true

@@ -1,0 +1,27 @@
+id: aboriginal land(slash)outer outline
+type: line
+source: esri
+source-layer: aboriginal land
+minzoom: 7
+layout:
+  line-cap: round
+  line-join: round
+paint:
+  line-color: '#82643a'
+  line-opacity:
+    stops:
+      - - 7
+        - 0.25
+      - - 9
+        - 0.15
+  line-width:
+    base: 1.2
+    stops:
+      - - 7
+        - 1.2
+      - - 8
+        - 1.5
+      - - 9
+        - 1.8
+      - - 11
+        - 2

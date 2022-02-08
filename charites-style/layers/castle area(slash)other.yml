@@ -1,0 +1,16 @@
+id: castle area(slash)other
+type: symbol
+source: esri
+source-layer: castle area
+filter:
+  - all
+  - - '=='
+    - _symbol
+    - 3
+  - - '=='
+    - $type
+    - Point
+minzoom: 14
+layout:
+  icon-image: castle area(slash)other
+  icon-allow-overlap: false

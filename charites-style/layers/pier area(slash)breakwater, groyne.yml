@@ -1,0 +1,12 @@
+id: pier area(slash)breakwater, groyne
+type: fill
+source: esri
+source-layer: pier area
+filter:
+  - '=='
+  - _symbol
+  - 0
+minzoom: 11
+layout: {}
+paint:
+  fill-color: '#AAAAAA'

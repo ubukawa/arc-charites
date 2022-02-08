@@ -1,0 +1,48 @@
+id: water area(slash)label(slash)water, basin, reservoir
+type: symbol
+source: esri
+source-layer: water area(slash)label
+filter:
+  - '=='
+  - _label_class
+  - 0
+minzoom: 7
+layout:
+  text-font:
+    - Arial Unicode MS Regular
+  text-size:
+    stops:
+      - - 7
+        - 8
+      - - 8
+        - 10
+      - - 12
+        - 11
+      - - 16
+        - 12
+  text-max-width:
+    stops:
+      - - 7
+        - 6
+      - - 8
+        - 7
+      - - 12
+        - 8
+      - - 16
+        - 9
+  text-line-height:
+    stops:
+      - - 7
+        - 1
+      - - 8
+        - 1.13
+      - - 12
+        - 1.16
+      - - 16
+        - 1.2
+  text-field: '{_name}'
+  text-optional: true
+paint:
+  text-color: '#4D80B3'
+  text-halo-color: rgba(255,255,255,0.8)
+  text-halo-width: 1

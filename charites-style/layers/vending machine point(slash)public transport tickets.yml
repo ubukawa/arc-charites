@@ -1,0 +1,27 @@
+id: vending machine point(slash)public transport tickets
+type: symbol
+source: esri
+source-layer: vending machine point
+filter:
+  - '=='
+  - _symbol
+  - 2
+minzoom: 18
+layout:
+  icon-image: vending machine point(slash)public transport tickets
+  icon-allow-overlap: false
+  text-font:
+    - Arial Unicode MS Regular
+  text-size: 10
+  text-max-width: 6
+  text-line-height: 1.1
+  text-anchor: top
+  text-offset:
+    - 0
+    - 0.8
+  text-field: '{_name}'
+  text-optional: true
+paint:
+  text-color: '#734A08'
+  text-halo-color: rgba(255,255,255,0.8)
+  text-halo-width: 1

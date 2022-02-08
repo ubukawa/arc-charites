@@ -1,0 +1,12 @@
+id: transportation area(slash)helipad
+type: fill
+source: esri
+source-layer: transportation area
+filter:
+  - '=='
+  - _symbol
+  - 7
+minzoom: 15
+layout: {}
+paint:
+  fill-color: '#BBBBCC'

@@ -1,0 +1,12 @@
+id: pier area(slash)pier
+type: fill
+source: esri
+source-layer: pier area
+filter:
+  - '=='
+  - _symbol
+  - 1
+minzoom: 11
+layout: {}
+paint:
+  fill-color: '#F2EFE9'

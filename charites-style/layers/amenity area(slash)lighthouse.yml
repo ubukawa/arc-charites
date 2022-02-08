@@ -1,0 +1,16 @@
+id: amenity area(slash)lighthouse
+type: symbol
+source: esri
+source-layer: amenity area
+filter:
+  - all
+  - - '=='
+    - _symbol
+    - 4
+  - - '=='
+    - $type
+    - Point
+minzoom: 14
+layout:
+  icon-image: amenity area(slash)lighthouse
+  icon-allow-overlap: true

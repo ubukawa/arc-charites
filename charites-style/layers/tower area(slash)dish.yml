@@ -1,0 +1,16 @@
+id: tower area(slash)dish
+type: symbol
+source: esri
+source-layer: tower area
+filter:
+  - all
+  - - '=='
+    - _symbol
+    - 10
+  - - '=='
+    - $type
+    - Point
+minzoom: 13
+layout:
+  icon-image: tower area(slash)dish
+  icon-allow-overlap: true

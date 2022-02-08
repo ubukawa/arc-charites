@@ -1,0 +1,15 @@
+id: water line (perennial)(slash)stream (bridge)(slash)line
+type: line
+source: esri
+source-layer: water line (perennial)
+filter:
+  - '=='
+  - _symbol
+  - 1
+minzoom: 14
+layout:
+  line-cap: round
+  line-join: round
+paint:
+  line-color: '#aad3df'
+  line-width: 2

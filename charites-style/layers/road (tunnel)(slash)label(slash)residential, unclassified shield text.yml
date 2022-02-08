@@ -1,0 +1,26 @@
+id: road (tunnel)(slash)label(slash)residential, unclassified shield text
+type: symbol
+source: esri
+source-layer: road (tunnel)(slash)label
+filter:
+  - '=='
+  - _label_class
+  - 10
+minzoom: 14
+layout:
+  symbol-placement: line
+  symbol-spacing: 760
+  text-font:
+    - Arial Unicode MS Regular
+  text-size:
+    stops:
+      - - 14
+        - 8
+      - - 15
+        - 9
+      - - 16
+        - 11
+  text-field: '{_name}'
+  text-optional: true
+paint:
+  text-color: '#000000'

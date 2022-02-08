@@ -1,0 +1,16 @@
+id: power tower
+type: symbol
+source: esri
+source-layer: power tower
+minzoom: 13
+layout:
+  icon-image: power tower
+  icon-size:
+    stops:
+      - - 13
+        - 0.43
+      - - 14
+        - 0.72
+      - - 16
+        - 1
+  icon-allow-overlap: false

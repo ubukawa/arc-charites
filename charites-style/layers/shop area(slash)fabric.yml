@@ -1,0 +1,16 @@
+id: shop area(slash)fabric
+type: symbol
+source: esri
+source-layer: shop area
+filter:
+  - all
+  - - '=='
+    - _symbol
+    - 70
+  - - '=='
+    - $type
+    - Point
+minzoom: 17
+layout:
+  icon-image: shop area(slash)fabric
+  icon-allow-overlap: true

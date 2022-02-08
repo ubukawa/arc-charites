@@ -1,0 +1,21 @@
+id: cemetery(slash)christian(slash)fill
+type: fill
+source: esri
+source-layer: cemetery
+filter:
+  - '=='
+  - _symbol
+  - 0
+minzoom: 9
+layout: {}
+paint:
+  fill-color:
+    stops:
+      - - 9
+        - '#d3e3d5'
+      - - 10
+        - '#cbdece'
+      - - 11
+        - '#c5dcc8'
+      - - 12
+        - '#aacbaf'

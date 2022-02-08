@@ -1,0 +1,16 @@
+id: information area(slash)board
+type: symbol
+source: esri
+source-layer: information area
+filter:
+  - all
+  - - '=='
+    - _symbol
+    - 2
+  - - '=='
+    - $type
+    - Point
+minzoom: 18
+layout:
+  icon-image: information area(slash)board
+  icon-allow-overlap: true

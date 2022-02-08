@@ -1,0 +1,19 @@
+id: >-
+  aerialway(slash)chair lift, drag lift, t-bar, j-bar, platter, rope tow, zip
+  line(slash)symbol
+type: symbol
+source: esri
+source-layer: aerialway
+filter:
+  - '=='
+  - _symbol
+  - 0
+minzoom: 11
+layout:
+  symbol-placement: line
+  icon-image: >-
+    aerialway(slash)chair lift, drag lift, t-bar, j-bar, platter, rope tow, zip
+    line(slash)0
+  symbol-spacing: 30
+  icon-rotation-alignment: map
+  icon-allow-overlap: true

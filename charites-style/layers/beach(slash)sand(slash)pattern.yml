@@ -1,0 +1,13 @@
+id: beach(slash)sand(slash)pattern
+type: fill
+source: esri
+source-layer: beach
+filter:
+  - '=='
+  - _symbol
+  - 0
+minzoom: 12
+layout: {}
+paint:
+  fill-antialias: false
+  fill-pattern: beach(slash)sand

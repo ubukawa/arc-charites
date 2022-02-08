@@ -1,0 +1,13 @@
+id: landcover(slash)orchard(slash)pattern
+type: fill
+source: esri
+source-layer: landcover
+filter:
+  - '=='
+  - _symbol
+  - 34
+minzoom: 12
+layout: {}
+paint:
+  fill-antialias: false
+  fill-pattern: landcover(slash)orchard

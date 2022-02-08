@@ -1,0 +1,44 @@
+id: road(slash)primary(slash)line
+type: line
+source: esri
+source-layer: road
+filter:
+  - '=='
+  - _symbol
+  - 2
+minzoom: 7
+layout:
+  line-cap: round
+  line-join: round
+paint:
+  line-color:
+    stops:
+      - - 7
+        - '#f3c380'
+      - - 11
+        - '#fcd6a4'
+  line-width:
+    base: 1.2
+    stops:
+      - - 7
+        - 1
+      - - 8
+        - 1.4
+      - - 9
+        - 1.8
+      - - 10
+        - 1.8
+      - - 11
+        - 2.5
+      - - 12
+        - 4
+      - - 13
+        - 4
+      - - 15
+        - 8.6
+      - - 16
+        - 16
+      - - 17
+        - 19
+      - - 18
+        - 25

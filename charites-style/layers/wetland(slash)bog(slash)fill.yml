@@ -1,0 +1,18 @@
+id: wetland(slash)bog(slash)fill
+type: fill
+source: esri
+source-layer: wetland
+filter:
+  - '=='
+  - _symbol
+  - 0
+minzoom: 4
+layout: {}
+paint:
+  fill-antialias: false
+  fill-color:
+    stops:
+      - - 9
+        - '#e3e5bd'
+      - - 13
+        - '#d6d99f'

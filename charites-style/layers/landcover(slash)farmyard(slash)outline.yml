@@ -1,0 +1,13 @@
+id: landcover(slash)farmyard(slash)outline
+type: line
+source: esri
+source-layer: landcover
+filter:
+  - '=='
+  - _symbol
+  - 32
+minzoom: 15
+layout: {}
+paint:
+  line-color: '#d1b48c'
+  line-width: 0.5

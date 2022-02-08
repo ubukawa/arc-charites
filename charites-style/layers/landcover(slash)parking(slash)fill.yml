@@ -1,0 +1,12 @@
+id: landcover(slash)parking(slash)fill
+type: fill
+source: esri
+source-layer: landcover
+filter:
+  - '=='
+  - _symbol
+  - 9
+minzoom: 13
+layout: {}
+paint:
+  fill-color: '#EEEEEE'

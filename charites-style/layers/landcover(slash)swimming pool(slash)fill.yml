@@ -1,0 +1,12 @@
+id: landcover(slash)swimming pool(slash)fill
+type: fill
+source: esri
+source-layer: landcover
+filter:
+  - '=='
+  - _symbol
+  - 2
+minzoom: 13
+layout: {}
+paint:
+  fill-color: '#AAD3DF'

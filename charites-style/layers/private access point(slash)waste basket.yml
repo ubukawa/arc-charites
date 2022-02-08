@@ -1,0 +1,12 @@
+id: private access point(slash)waste basket
+type: symbol
+source: esri
+source-layer: private access point
+filter:
+  - '=='
+  - _symbol
+  - 16
+minzoom: 18
+layout:
+  icon-image: private access point(slash)waste basket
+  icon-allow-overlap: false

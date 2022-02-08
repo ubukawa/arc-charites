@@ -1,0 +1,12 @@
+id: amenity point(slash)telephone
+type: symbol
+source: esri
+source-layer: amenity point
+filter:
+  - '=='
+  - _symbol
+  - 32
+minzoom: 16
+layout:
+  icon-image: amenity point(slash)telephone
+  icon-allow-overlap: false

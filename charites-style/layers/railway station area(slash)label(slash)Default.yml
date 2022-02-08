@@ -1,0 +1,33 @@
+id: railway station area(slash)label(slash)Default
+type: symbol
+source: esri
+source-layer: railway station area(slash)label
+minzoom: 13
+layout:
+  text-font:
+    - Arial Unicode MS Bold
+  text-size:
+    stops:
+      - - 13
+        - 10
+      - - 14
+        - 11
+      - - 15
+        - 13
+  text-max-width: 5
+  text-line-height:
+    stops:
+      - - 13
+        - 1
+      - - 14
+        - 1.1
+  text-field: '{_name}'
+  text-anchor: top
+  text-offset:
+    - 0
+    - 0.8
+  text-optional: false
+paint:
+  text-color: '#4957AD'
+  text-halo-color: rgba(255,255,255,0.8)
+  text-halo-width: 1.5

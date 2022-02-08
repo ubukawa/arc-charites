@@ -1,0 +1,20 @@
+id: water barrier point(slash)dam
+type: circle
+source: esri
+source-layer: water barrier point
+filter:
+  - '=='
+  - _symbol
+  - 0
+minzoom: 16
+layout: {}
+paint:
+  circle-radius:
+    stops:
+      - - 16
+        - 2.7
+      - - 17
+        - 4
+  circle-color: '#ADADAD'
+  circle-stroke-color: '#444444'
+  circle-stroke-width: 1.3

@@ -1,0 +1,13 @@
+id: road (under construction)(slash)bridleway, cycleway, steps(slash)casing
+type: line
+source: esri
+source-layer: road (under construction)
+filter:
+  - '=='
+  - _symbol
+  - 6
+minzoom: 15
+layout: {}
+paint:
+  line-color: rgba(255,255,255,0.4)
+  line-width: 3

@@ -1,0 +1,14 @@
+id: amenity line(slash)ford
+type: symbol
+source: esri
+source-layer: amenity line
+filter:
+  - '=='
+  - _symbol
+  - 0
+minzoom: 15
+layout:
+  symbol-placement: line
+  icon-image: amenity line(slash)ford
+  icon-rotation-alignment: viewport
+  icon-allow-overlap: false

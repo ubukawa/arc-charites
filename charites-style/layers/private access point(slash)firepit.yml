@@ -1,0 +1,12 @@
+id: private access point(slash)firepit
+type: symbol
+source: esri
+source-layer: private access point
+filter:
+  - '=='
+  - _symbol
+  - 9
+minzoom: 16
+layout:
+  icon-image: private access point(slash)firepit
+  icon-allow-overlap: false

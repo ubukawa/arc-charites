@@ -1,0 +1,8 @@
+id: Daylight building(slash)fill
+type: fill
+source: esri
+source-layer: Daylight building
+minzoom: 14
+layout: {}
+paint:
+  fill-color: '#d9d0c9'

@@ -1,0 +1,13 @@
+id: entrance(slash)service (other access)
+type: symbol
+source: esri
+source-layer: entrance
+filter:
+  - '=='
+  - _symbol
+  - 3
+minzoom: 18
+layout:
+  icon-image: entrance(slash)service (other access)
+  icon-size: 0.8
+  icon-allow-overlap: false

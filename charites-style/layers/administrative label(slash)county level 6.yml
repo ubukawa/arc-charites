@@ -1,0 +1,36 @@
+id: administrative label(slash)county level 6
+type: symbol
+source: esri
+source-layer: administrative label(slash)label
+filter:
+  - '=='
+  - _label_class
+  - 3
+minzoom: 9
+layout:
+  text-font:
+    - Arial Unicode MS Regular
+  text-size:
+    stops:
+      - - 9
+        - 10
+      - - 11
+        - 11
+  text-max-width:
+    stops:
+      - - 9
+        - 13
+      - - 11
+        - 14
+  text-line-height:
+    stops:
+      - - 9
+        - 1.12
+      - - 11
+        - 1.15
+  text-field: '{_name}'
+  text-optional: true
+paint:
+  text-color: '#976D95'
+  text-halo-color: rgba(255,255,255,0.8)
+  text-halo-width: 1.5

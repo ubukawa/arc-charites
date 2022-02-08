@@ -1,0 +1,11 @@
+id: OSM building(slash)outline
+type: line
+source: esri
+source-layer: OSM building
+minzoom: 14
+layout:
+  line-cap: round
+  line-join: round
+paint:
+  line-color: '#B9A99C'
+  line-width: 0.75

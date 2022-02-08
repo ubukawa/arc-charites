@@ -1,0 +1,13 @@
+id: landcover(slash)sports(slash)outline
+type: line
+source: esri
+source-layer: landcover
+filter:
+  - '=='
+  - _symbol
+  - 6
+minzoom: 12
+layout: {}
+paint:
+  line-color: '#2EEC3D'
+  line-width: 0.3

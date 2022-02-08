@@ -1,0 +1,12 @@
+id: landcover(slash)aerodrome(slash)fill
+type: fill
+source: esri
+source-layer: landcover
+filter:
+  - '=='
+  - _symbol
+  - 11
+minzoom: 9
+layout: {}
+paint:
+  fill-color: '#E9E7E2'

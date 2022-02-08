@@ -1,0 +1,19 @@
+id: landcover(slash)education, medical, cultural(slash)fill
+type: fill
+source: esri
+source-layer: landcover
+filter:
+  - '=='
+  - _symbol
+  - 21
+minzoom: 9
+layout: {}
+paint:
+  fill-color:
+    stops:
+      - - 9
+        - '#d0d0d0'
+      - - 11
+        - '#dddddd'
+      - - 12
+        - '#ffffe5'

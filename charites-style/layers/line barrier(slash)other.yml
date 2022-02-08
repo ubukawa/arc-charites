@@ -1,0 +1,15 @@
+id: line barrier(slash)other
+type: line
+source: esri
+source-layer: line barrier
+filter:
+  - '=='
+  - _symbol
+  - 2
+minzoom: 15
+layout:
+  line-cap: round
+  line-join: round
+paint:
+  line-color: '#444444'
+  line-width: 0.4

@@ -1,0 +1,27 @@
+id: amenity point(slash)arts centre
+type: symbol
+source: esri
+source-layer: amenity point
+filter:
+  - '=='
+  - _symbol
+  - 30
+minzoom: 16
+layout:
+  icon-image: amenity point(slash)arts centre
+  icon-allow-overlap: false
+  text-font:
+    - Arial Unicode MS Regular
+  text-size: 10
+  text-max-width: 6
+  text-line-height: 1.1
+  text-anchor: top
+  text-offset:
+    - 0
+    - 0.8
+  text-field: '{_name25}'
+  text-optional: true
+paint:
+  text-color: '#734A08'
+  text-halo-color: rgba(255,255,255,0.8)
+  text-halo-width: 1

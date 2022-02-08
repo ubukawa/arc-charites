@@ -1,0 +1,13 @@
+id: landcover(slash)danger area(slash)fill
+type: fill
+source: esri
+source-layer: landcover
+filter:
+  - '=='
+  - _symbol
+  - 19
+minzoom: 8
+layout: {}
+paint:
+  fill-antialias: false
+  fill-pattern: landcover(slash)danger area

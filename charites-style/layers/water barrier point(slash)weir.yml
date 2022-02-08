@@ -1,0 +1,20 @@
+id: water barrier point(slash)weir
+type: circle
+source: esri
+source-layer: water barrier point
+filter:
+  - '=='
+  - _symbol
+  - 1
+minzoom: 16
+layout: {}
+paint:
+  circle-radius:
+    stops:
+      - - 16
+        - 3
+      - - 17
+        - 4.3
+  circle-color: '#AAD3DF'
+  circle-stroke-color: '#AAAAAA'
+  circle-stroke-width: 1.3

@@ -1,0 +1,42 @@
+id: OSM address area(slash)label(slash)Number(slash)Flat(slash)Name
+type: symbol
+source: esri
+source-layer: OSM address area(slash)label
+filter:
+  - '=='
+  - _label_class
+  - 2
+minzoom: 17
+layout:
+  text-font:
+    - Arial Unicode MS Regular
+  text-size:
+    stops:
+      - - 16
+        - 10
+      - - 19
+        - 11
+  text-max-width:
+    stops:
+      - - 16
+        - 8
+      - - 19
+        - 9
+  text-padding:
+    stops:
+      - - 16
+        - 3
+      - - 19
+        - 3.3
+  text-line-height:
+    stops:
+      - - 16
+        - 1
+      - - 19
+        - 1.1
+  text-field: '{_name}'
+  text-optional: true
+paint:
+  text-color: '#666666'
+  text-halo-color: rgba(255,255,255,0.8)
+  text-halo-width: 1

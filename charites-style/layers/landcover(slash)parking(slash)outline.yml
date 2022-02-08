@@ -1,0 +1,13 @@
+id: landcover(slash)parking(slash)outline
+type: line
+source: esri
+source-layer: landcover
+filter:
+  - '=='
+  - _symbol
+  - 9
+minzoom: 14
+layout: {}
+paint:
+  line-color: '#a07070'
+  line-width: 0.3

@@ -1,0 +1,20 @@
+id: landcover(slash)retail(slash)fill
+type: fill
+source: esri
+source-layer: landcover
+filter:
+  - '=='
+  - _symbol
+  - 22
+minzoom: 7
+layout: {}
+paint:
+  fill-antialias: false
+  fill-color:
+    stops:
+      - - 7
+        - '#d0d0d0'
+      - - 11
+        - '#dddddd'
+      - - 12
+        - '#ffd6d1'

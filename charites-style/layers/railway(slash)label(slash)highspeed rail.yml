@@ -1,0 +1,36 @@
+id: railway(slash)label(slash)highspeed rail
+type: symbol
+source: esri
+source-layer: railway(slash)label
+filter:
+  - '=='
+  - _label_class
+  - 0
+minzoom: 10
+layout:
+  symbol-placement: line
+  symbol-spacing:
+    stops:
+      - - 10
+        - 300
+      - - 13
+        - 400
+  text-offset:
+    - 0
+    - 0.8
+  text-font:
+    - Arial Unicode MS Regular
+  text-size:
+    stops:
+      - - 10
+        - 10
+      - - 16
+        - 11
+      - - 18
+        - 12
+  text-field: '{_name}'
+  text-optional: true
+paint:
+  text-color: '#666666'
+  text-halo-color: rgba(255,255,255,0.8)
+  text-halo-width: 1

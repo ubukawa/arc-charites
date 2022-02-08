@@ -1,0 +1,21 @@
+id: shop area(slash)outdoor
+type: symbol
+source: esri
+source-layer: shop area
+filter:
+  - all
+  - - '=='
+    - _symbol
+    - 43
+  - - '=='
+    - $type
+    - Point
+minzoom: 16
+layout:
+  icon-image:
+    stops:
+      - - 16.5
+        - shop area(slash)outdoor_1
+      - - 16.6
+        - shop area(slash)outdoor
+  icon-allow-overlap: true

@@ -1,0 +1,12 @@
+id: chimney area
+type: symbol
+source: esri
+source-layer: chimney area
+filter:
+  - '=='
+  - $type
+  - Point
+minzoom: 15
+layout:
+  icon-image: chimney area
+  icon-allow-overlap: true

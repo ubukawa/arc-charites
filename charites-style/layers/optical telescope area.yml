@@ -1,0 +1,12 @@
+id: optical telescope area
+type: symbol
+source: esri
+source-layer: optical telescope area
+filter:
+  - '=='
+  - $type
+  - Point
+minzoom: 13
+layout:
+  icon-image: optical telescope area
+  icon-allow-overlap: true

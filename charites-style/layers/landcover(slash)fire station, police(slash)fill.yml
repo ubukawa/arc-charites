@@ -1,0 +1,12 @@
+id: landcover(slash)fire station, police(slash)fill
+type: fill
+source: esri
+source-layer: landcover
+filter:
+  - '=='
+  - _symbol
+  - 52
+minzoom: 7
+layout: {}
+paint:
+  fill-color: '#f3e3dd'

@@ -1,0 +1,13 @@
+id: landcover(slash)prison(slash)outline
+type: line
+source: esri
+source-layer: landcover
+filter:
+  - '=='
+  - _symbol
+  - 18
+minzoom: 9
+layout: {}
+paint:
+  line-color: rgba(136,136,136,0.329)
+  line-width: 3

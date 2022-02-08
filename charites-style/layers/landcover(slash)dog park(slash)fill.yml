@@ -1,0 +1,12 @@
+id: landcover(slash)dog park(slash)fill
+type: fill
+source: esri
+source-layer: landcover
+filter:
+  - '=='
+  - _symbol
+  - 38
+minzoom: 9
+layout: {}
+paint:
+  fill-color: '#DFFCE2'

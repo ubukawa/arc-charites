@@ -1,0 +1,15 @@
+id: area barrier(slash)hedge(slash)outline
+type: line
+source: esri
+source-layer: area barrier
+filter:
+  - '=='
+  - _symbol
+  - 0
+minzoom: 15
+layout:
+  line-cap: round
+  line-join: round
+paint:
+  line-color: '#add19e'
+  line-width: 0.4

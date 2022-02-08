@@ -1,0 +1,20 @@
+id: landcover(slash)vineyard(slash)fill
+type: fill
+source: esri
+source-layer: landcover
+filter:
+  - '=='
+  - _symbol
+  - 37
+minzoom: 4
+layout: {}
+paint:
+  fill-antialias: false
+  fill-color:
+    stops:
+      - - 4
+        - '#d2edcc'
+      - - 11
+        - '#c7e9bf'
+      - - 12
+        - '#aedfa3'

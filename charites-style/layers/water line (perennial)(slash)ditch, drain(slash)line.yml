@@ -1,0 +1,15 @@
+id: water line (perennial)(slash)ditch, drain(slash)line
+type: line
+source: esri
+source-layer: water line (perennial)
+filter:
+  - '=='
+  - _symbol
+  - 6
+minzoom: 13
+layout:
+  line-cap: round
+  line-join: round
+paint:
+  line-color: '#aad3df'
+  line-width: 2

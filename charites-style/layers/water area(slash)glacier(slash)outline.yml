@@ -1,0 +1,29 @@
+id: water area(slash)glacier(slash)outline
+type: line
+source: esri
+source-layer: water area
+filter:
+  - '=='
+  - _symbol
+  - 0
+minzoom: 4
+layout: {}
+paint:
+  line-color: '#99CCFF'
+  line-dasharray:
+    stops:
+      - - 8.5
+        - - 1
+          - 0
+      - - 8.6
+        - - 4
+          - 2
+  line-width:
+    base: 1.2
+    stops:
+      - - 4
+        - 0.3
+      - - 7
+        - 1
+      - - 9
+        - 1.5

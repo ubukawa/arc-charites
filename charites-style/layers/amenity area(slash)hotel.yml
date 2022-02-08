@@ -1,0 +1,16 @@
+id: amenity area(slash)hotel
+type: symbol
+source: esri
+source-layer: amenity area
+filter:
+  - all
+  - - '=='
+    - _symbol
+    - 50
+  - - '=='
+    - $type
+    - Point
+minzoom: 16
+layout:
+  icon-image: amenity area(slash)hotel
+  icon-allow-overlap: true

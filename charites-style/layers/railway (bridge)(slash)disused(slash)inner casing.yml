@@ -1,0 +1,14 @@
+id: railway (bridge)(slash)disused(slash)inner casing
+type: line
+source: esri
+source-layer: railway (bridge)
+filter:
+  - '=='
+  - _symbol
+  - 11
+minzoom: 14
+layout:
+  line-join: round
+paint:
+  line-color: '#FFFFFF'
+  line-width: 4.5

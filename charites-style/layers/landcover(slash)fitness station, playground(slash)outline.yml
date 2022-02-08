@@ -1,0 +1,13 @@
+id: landcover(slash)fitness station, playground(slash)outline
+type: line
+source: esri
+source-layer: landcover
+filter:
+  - '=='
+  - _symbol
+  - 3
+minzoom: 14
+layout: {}
+paint:
+  line-color: '#0E9B1D'
+  line-width: 0.3

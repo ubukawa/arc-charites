@@ -1,0 +1,11 @@
+id: ferry route(slash)casing
+type: line
+source: esri
+source-layer: ferry route
+minzoom: 7
+layout:
+  line-cap: round
+  line-join: round
+paint:
+  line-color: '#AAD3DF'
+  line-width: 1

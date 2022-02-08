@@ -1,0 +1,13 @@
+id: entrance(slash)home, staircase (public access)
+type: symbol
+source: esri
+source-layer: entrance
+filter:
+  - '=='
+  - _symbol
+  - 4
+minzoom: 18
+layout:
+  icon-image: entrance(slash)home, staircase (public access)
+  icon-size: 0.8
+  icon-allow-overlap: false

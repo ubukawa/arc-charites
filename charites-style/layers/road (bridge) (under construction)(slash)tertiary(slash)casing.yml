@@ -1,0 +1,19 @@
+id: road (bridge) (under construction)(slash)tertiary(slash)casing
+type: line
+source: esri
+source-layer: road (bridge) (under construction)
+filter:
+  - '=='
+  - _symbol
+  - 4
+minzoom: 12
+layout: {}
+paint:
+  line-color: '#AAAAAA'
+  line-width:
+    base: 1.2
+    stops:
+      - - 12
+        - 4
+      - - 15
+        - 8

@@ -1,0 +1,44 @@
+id: place (small)(slash)locality
+type: symbol
+source: esri
+source-layer: place (small)
+minzoom: 15
+layout:
+  text-font:
+    - Arial Unicode MS Regular
+  text-size:
+    stops:
+      - - 15
+        - 10
+      - - 16
+        - 12
+  text-max-width: 7
+  text-padding:
+    stops:
+      - - 15
+        - 7
+      - - 16
+        - 8.4
+  text-line-height:
+    stops:
+      - - 15
+        - 1.1
+      - - 16
+        - 1.2
+  text-letter-spacing: 0.05
+  text-field: '{_name6}'
+  text-optional: true
+paint:
+  text-color:
+    stops:
+      - - 15
+        - '#222222'
+      - - 16
+        - '#777777'
+  text-halo-color:
+    stops:
+      - - 15
+        - rgba(255,255,255,0.6)
+      - - 16
+        - '#ffffff'
+  text-halo-width: 1.5

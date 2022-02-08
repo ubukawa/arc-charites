@@ -1,0 +1,42 @@
+id: landcover(slash)label(slash)power substation
+type: symbol
+source: esri
+source-layer: landcover(slash)label
+filter:
+  - '=='
+  - _label_class
+  - 8
+minzoom: 12
+layout:
+  text-font:
+    - Arial Unicode MS Regular
+  text-size:
+    stops:
+      - - 12
+        - 10
+      - - 14
+        - 11
+      - - 16
+        - 12
+  text-max-width:
+    stops:
+      - - 12
+        - 5
+      - - 14
+        - 7
+      - - 16
+        - 8
+  text-line-height:
+    stops:
+      - - 12
+        - 1
+      - - 14
+        - 1.15
+      - - 16
+        - 1.2
+  text-field: '{_name}'
+  text-optional: true
+paint:
+  text-color: '#4d4d4d'
+  text-halo-color: rgba(255,255,255,0.8)
+  text-halo-width: 1

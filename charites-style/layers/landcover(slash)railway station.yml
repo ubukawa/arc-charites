@@ -1,0 +1,12 @@
+id: landcover(slash)railway station
+type: fill
+source: esri
+source-layer: landcover
+filter:
+  - '=='
+  - _symbol
+  - 16
+minzoom: 9
+layout: {}
+paint:
+  fill-color: '#EBDBE8'

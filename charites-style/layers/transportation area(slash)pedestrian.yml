@@ -1,0 +1,13 @@
+id: transportation area(slash)pedestrian
+type: fill
+source: esri
+source-layer: transportation area
+filter:
+  - '=='
+  - _symbol
+  - 3
+minzoom: 14
+layout: {}
+paint:
+  fill-color: '#dddde8'
+  fill-outline-color: '#808080'

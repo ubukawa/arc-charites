@@ -1,0 +1,13 @@
+id: wetland(slash)reef
+type: fill
+source: esri
+source-layer: wetland
+filter:
+  - '=='
+  - _symbol
+  - 9
+minzoom: 9
+layout: {}
+paint:
+  fill-antialias: false
+  fill-pattern: wetland(slash)reef

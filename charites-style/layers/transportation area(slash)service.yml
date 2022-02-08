@@ -1,0 +1,13 @@
+id: transportation area(slash)service
+type: fill
+source: esri
+source-layer: transportation area
+filter:
+  - '=='
+  - _symbol
+  - 2
+minzoom: 13
+layout: {}
+paint:
+  fill-color: '#FFFFFF'
+  fill-outline-color: '#808080'

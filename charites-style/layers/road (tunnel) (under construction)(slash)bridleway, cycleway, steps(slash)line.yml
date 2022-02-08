@@ -1,0 +1,17 @@
+id: road (tunnel) (under construction)(slash)bridleway, cycleway, steps(slash)line
+type: line
+source: esri
+source-layer: road (tunnel) (under construction)
+filter:
+  - '=='
+  - _symbol
+  - 6
+minzoom: 15
+layout:
+  line-join: round
+paint:
+  line-color: '#aaaaaa'
+  line-dasharray:
+    - 1.5
+    - 1
+  line-width: 1.2

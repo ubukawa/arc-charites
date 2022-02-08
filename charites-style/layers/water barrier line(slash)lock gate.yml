@@ -1,0 +1,15 @@
+id: water barrier line(slash)lock gate
+type: line
+source: esri
+source-layer: water barrier line
+filter:
+  - '=='
+  - _symbol
+  - 1
+minzoom: 12
+layout:
+  line-cap: round
+  line-join: round
+paint:
+  line-color: '#AAAAAA'
+  line-width: 2

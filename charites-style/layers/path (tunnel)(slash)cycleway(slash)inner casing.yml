@@ -1,0 +1,27 @@
+id: path (tunnel)(slash)cycleway(slash)inner casing
+type: line
+source: esri
+source-layer: path (tunnel)
+filter:
+  - '=='
+  - _symbol
+  - 0
+minzoom: 12
+layout:
+  line-join: round
+  line-cap: round
+paint:
+  line-color: '#FFFFFF'
+  line-width:
+    base: 1.2
+    stops:
+      - - 12
+        - 2.7
+      - - 14
+        - 2.9
+      - - 15
+        - 2.9
+      - - 17
+        - 3
+      - - 18
+        - 3.3

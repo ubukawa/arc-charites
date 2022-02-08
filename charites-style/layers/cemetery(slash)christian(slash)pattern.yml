@@ -1,0 +1,12 @@
+id: cemetery(slash)christian(slash)pattern
+type: fill
+source: esri
+source-layer: cemetery
+filter:
+  - '=='
+  - _symbol
+  - 0
+minzoom: 12
+layout: {}
+paint:
+  fill-pattern: cemetery(slash)christian

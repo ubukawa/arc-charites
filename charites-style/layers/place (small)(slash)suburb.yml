@@ -1,0 +1,68 @@
+id: place (small)(slash)suburb
+type: symbol
+source: esri
+source-layer: place (small)
+minzoom: 11
+maxzoom: 16
+layout:
+  text-font:
+    - Arial Unicode MS Regular
+  text-size:
+    stops:
+      - - 11
+        - 11
+      - - 12
+        - 12
+      - - 13
+        - 14
+      - - 15
+        - 15
+  text-max-width:
+    stops:
+      - - 11
+        - 12
+      - - 12
+        - 13
+      - - 13
+        - 14
+      - - 15
+        - 15
+  text-padding:
+    stops:
+      - - 11
+        - 7.7
+      - - 12
+        - 8.4
+      - - 13
+        - 9.8
+      - - 15
+        - 10.5
+  text-line-height:
+    stops:
+      - - 11
+        - 1
+      - - 12
+        - 1.12
+      - - 13
+        - 1.15
+      - - 14
+        - 1.17
+      - - 15
+        - 1.2
+  text-letter-spacing: 0.05
+  text-field: '{_name}'
+  text-optional: true
+paint:
+  text-color:
+    stops:
+      - - 12.5
+        - '#222222'
+      - - 12.6
+        - '#777777'
+  text-halo-color:
+    stops:
+      - - 11
+        - rgba(255,255,255,0.6)
+      - - 13
+        - '#ffffff'
+  text-halo-width: 1.5

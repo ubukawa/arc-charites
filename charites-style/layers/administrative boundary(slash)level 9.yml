@@ -1,0 +1,18 @@
+id: administrative boundary(slash)level 9
+type: line
+source: esri
+source-layer: administrative boundary
+filter:
+  - '=='
+  - _symbol
+  - 7
+minzoom: 12
+layout:
+  line-join: bevel
+paint:
+  line-color: '#8d618b'
+  line-opacity: 0.5
+  line-dasharray:
+    - 1
+    - 2.5
+  line-width: 1.5

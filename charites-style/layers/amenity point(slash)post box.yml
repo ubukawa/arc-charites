@@ -1,0 +1,12 @@
+id: amenity point(slash)post box
+type: symbol
+source: esri
+source-layer: amenity point
+filter:
+  - '=='
+  - _symbol
+  - 39
+minzoom: 18
+layout:
+  icon-image: amenity point(slash)post box
+  icon-allow-overlap: false

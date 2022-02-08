@@ -1,0 +1,18 @@
+id: railway (tunnel)(slash)INT-preserved-ssy(slash)line
+type: line
+source: esri
+source-layer: railway (tunnel)
+filter:
+  - '=='
+  - _symbol
+  - 8
+minzoom: 11
+layout:
+  line-cap: round
+  line-join: round
+paint:
+  line-color: '#FFFFFF'
+  line-dasharray:
+    - 8
+    - 1
+  line-width: 0.8

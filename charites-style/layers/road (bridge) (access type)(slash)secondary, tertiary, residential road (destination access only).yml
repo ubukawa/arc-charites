@@ -1,0 +1,26 @@
+id: >-
+  road (bridge) (access type)(slash)secondary, tertiary, residential road
+  (destination access only)
+type: line
+source: esri
+source-layer: road (bridge) (access type)
+filter:
+  - '=='
+  - _symbol
+  - 0
+minzoom: 14
+layout:
+  line-cap: round
+  line-join: round
+paint:
+  line-color: '#EAEAEA'
+  line-width:
+    base: 1.2
+    stops:
+      - - 14
+        - 2
+      - - 16
+        - 6
+  line-dasharray:
+    - 1
+    - 1.7

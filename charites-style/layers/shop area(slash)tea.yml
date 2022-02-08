@@ -1,0 +1,21 @@
+id: shop area(slash)tea
+type: symbol
+source: esri
+source-layer: shop area
+filter:
+  - all
+  - - '=='
+    - _symbol
+    - 52
+  - - '=='
+    - $type
+    - Point
+minzoom: 16
+layout:
+  icon-image:
+    stops:
+      - - 16.5
+        - shop area(slash)tea_1
+      - - 16.6
+        - shop area(slash)tea
+  icon-allow-overlap: true

@@ -1,0 +1,33 @@
+id: memorial point(slash)statue
+type: symbol
+source: esri
+source-layer: memorial point
+filter:
+  - '=='
+  - _symbol
+  - 4
+minzoom: 16
+layout:
+  icon-image: memorial point(slash)statue
+  icon-allow-overlap: false
+  text-font:
+    - Arial Unicode MS Regular
+  text-size: 10
+  text-max-width: 6
+  text-line-height: 1.1
+  text-anchor: top
+  text-offset:
+    - 0
+    - 0.8
+  text-field: '{_name}'
+  text-optional: true
+paint:
+  text-opacity:
+    stops:
+      - - 14.5
+        - 0
+      - - 14.6
+        - 1
+  text-color: '#734A08'
+  text-halo-color: rgba(255,255,255,0.8)
+  text-halo-width: 1

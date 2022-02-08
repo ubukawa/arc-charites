@@ -1,0 +1,13 @@
+id: landcover(slash)bare rock(slash)fill
+type: fill
+source: esri
+source-layer: landcover
+filter:
+  - '=='
+  - _symbol
+  - 41
+minzoom: 4
+layout: {}
+paint:
+  fill-antialias: false
+  fill-color: '#eee5dc'

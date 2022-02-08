@@ -1,0 +1,13 @@
+id: landcover(slash)mud(slash)fill
+type: fill
+source: esri
+source-layer: landcover
+filter:
+  - '=='
+  - _symbol
+  - 45
+minzoom: 4
+layout: {}
+paint:
+  fill-antialias: false
+  fill-color: rgba(203,177,154,0.3)

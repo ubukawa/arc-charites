@@ -1,0 +1,12 @@
+id: water barrier area(slash)dam(slash)fill
+type: fill
+source: esri
+source-layer: water barrier area
+filter:
+  - '=='
+  - _symbol
+  - 0
+minzoom: 12
+layout: {}
+paint:
+  fill-color: '#ADADAD'

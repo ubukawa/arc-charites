@@ -1,0 +1,25 @@
+id: road (under construction)(slash)tertiary(slash)line
+type: line
+source: esri
+source-layer: road (under construction)
+filter:
+  - '=='
+  - _symbol
+  - 4
+minzoom: 12
+layout:
+  line-join: round
+paint:
+  line-color: '#FFFFFF'
+  line-width:
+    base: 1.2
+    stops:
+      - - 11
+        - 2
+      - - 12
+        - 3.5
+      - - 15
+        - 7
+  line-dasharray:
+    - 1.5
+    - 1

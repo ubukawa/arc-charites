@@ -1,0 +1,22 @@
+id: amenity area (low priority)(slash)block, bollard, log
+type: symbol
+source: esri
+source-layer: amenity area (low priority)
+filter:
+  - all
+  - - '=='
+    - _symbol
+    - 0
+  - - '=='
+    - $type
+    - Point
+minzoom: 16
+layout:
+  icon-image: amenity area (low priority)(slash)block, bollard, log
+  icon-size:
+    stops:
+      - - 16
+        - 0.75
+      - - 17
+        - 1
+  icon-allow-overlap: false

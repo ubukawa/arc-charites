@@ -1,0 +1,17 @@
+id: railway (tunnel)(slash)subway
+type: line
+source: esri
+source-layer: railway (tunnel)
+filter:
+  - '=='
+  - _symbol
+  - 5
+minzoom: 11
+layout:
+  line-join: round
+paint:
+  line-color: '#999999'
+  line-dasharray:
+    - 2
+    - 2
+  line-width: 2

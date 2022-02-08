@@ -1,0 +1,13 @@
+id: landcover(slash)plant nursery(slash)pattern
+type: fill
+source: esri
+source-layer: landcover
+filter:
+  - '=='
+  - _symbol
+  - 35
+minzoom: 12
+layout: {}
+paint:
+  fill-antialias: false
+  fill-pattern: landcover(slash)plant nursery

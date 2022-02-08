@@ -1,0 +1,24 @@
+id: road (access type)(slash)service road (minor) (no public access)
+type: line
+source: esri
+source-layer: road (access type)
+filter:
+  - '=='
+  - _symbol
+  - 7
+minzoom: 15
+layout:
+  line-cap: round
+  line-join: round
+paint:
+  line-color: '#EAEAEA'
+  line-dasharray:
+    - 4
+    - 4
+  line-width:
+    base: 1.2
+    stops:
+      - - 15
+        - 1
+      - - 16
+        - 2

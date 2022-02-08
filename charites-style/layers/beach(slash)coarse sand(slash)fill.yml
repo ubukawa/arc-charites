@@ -1,0 +1,13 @@
+id: beach(slash)coarse sand(slash)fill
+type: fill
+source: esri
+source-layer: beach
+filter:
+  - '=='
+  - _symbol
+  - 1
+minzoom: 9
+layout: {}
+paint:
+  fill-antialias: false
+  fill-color: '#fff1ba'

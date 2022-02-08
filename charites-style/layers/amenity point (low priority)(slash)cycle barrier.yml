@@ -1,0 +1,12 @@
+id: amenity point (low priority)(slash)cycle barrier
+type: symbol
+source: esri
+source-layer: amenity point (low priority)
+filter:
+  - '=='
+  - _symbol
+  - 11
+minzoom: 16
+layout:
+  icon-image: amenity point (low priority)(slash)cycle barrier
+  icon-allow-overlap: false

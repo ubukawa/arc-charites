@@ -1,0 +1,13 @@
+id: landcover(slash)bare rock(slash)pattern
+type: fill
+source: esri
+source-layer: landcover
+filter:
+  - '=='
+  - _symbol
+  - 41
+minzoom: 12
+layout: {}
+paint:
+  fill-antialias: false
+  fill-pattern: landcover(slash)bare rock

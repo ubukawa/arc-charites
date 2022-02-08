@@ -1,0 +1,46 @@
+id: administrative label(slash)county level 5
+type: symbol
+source: esri
+source-layer: administrative label(slash)label
+filter:
+  - '=='
+  - _label_class
+  - 2
+minzoom: 7
+layout:
+  text-font:
+    - Arial Unicode MS Regular
+  text-size:
+    stops:
+      - - 7
+        - 10
+      - - 9
+        - 12
+      - - 11
+        - 13
+  text-max-width:
+    stops:
+      - - 7
+        - 12
+      - - 8
+        - 13
+      - - 9
+        - 14
+      - - 11
+        - 15
+  text-line-height:
+    stops:
+      - - 7
+        - 1
+      - - 8
+        - 1.12
+      - - 9
+        - 1.15
+      - - 11
+        - 1.17
+  text-field: '{_name}'
+  text-optional: true
+paint:
+  text-color: '#976D95'
+  text-halo-color: rgba(255,255,255,0.8)
+  text-halo-width: 1.5

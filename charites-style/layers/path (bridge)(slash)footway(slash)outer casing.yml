@@ -1,0 +1,26 @@
+id: path (bridge)(slash)footway(slash)outer casing
+type: line
+source: esri
+source-layer: path (bridge)
+filter:
+  - '=='
+  - _symbol
+  - 1
+minzoom: 13
+layout:
+  line-join: round
+paint:
+  line-color: '#000000'
+  line-width:
+    base: 1.2
+    stops:
+      - - 13
+        - 3.7
+      - - 14
+        - 4
+      - - 15
+        - 4.3
+      - - 17
+        - 4.3
+      - - 18
+        - 4.6

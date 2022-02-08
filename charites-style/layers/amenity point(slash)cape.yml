@@ -1,0 +1,22 @@
+id: amenity point(slash)cape
+type: symbol
+source: esri
+source-layer: amenity point
+minzoom: 13
+layout:
+  text-font:
+    - Arial Unicode MS Regular
+  text-size:
+    stops:
+      - - 13
+        - 10
+      - - 14
+        - 12
+  text-max-width: 7
+  text-line-height: 1.2
+  text-field: '{_name38}'
+  text-optional: true
+paint:
+  text-color: '#000000'
+  text-halo-color: rgba(255,255,255,0.8)
+  text-halo-width: 1

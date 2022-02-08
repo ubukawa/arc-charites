@@ -1,0 +1,38 @@
+id: shop point(slash)outdoor
+type: symbol
+source: esri
+source-layer: shop point
+filter:
+  - '=='
+  - _symbol
+  - 44
+minzoom: 16
+layout:
+  icon-image:
+    stops:
+      - - 16.5
+        - shop point(slash)outdoor_1
+      - - 16.6
+        - shop point(slash)outdoor
+  icon-allow-overlap: false
+  text-font:
+    - Arial Unicode MS Regular
+  text-size: 10
+  text-max-width: 6
+  text-line-height: 1.1
+  text-anchor: top
+  text-offset:
+    - 0
+    - 0.8
+  text-field: '{_name1}'
+  text-optional: true
+paint:
+  text-opacity:
+    stops:
+      - - 16.5
+        - 0
+      - - 16.6
+        - 1
+  text-color: '#993399'
+  text-halo-color: rgba(255,255,255,0.8)
+  text-halo-width: 1

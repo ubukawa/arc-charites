@@ -1,0 +1,22 @@
+id: landcover(slash)forest
+type: fill
+source: esri
+source-layer: landcover
+filter:
+  - '=='
+  - _symbol
+  - 51
+minzoom: 4
+layout: {}
+paint:
+  fill-antialias: false
+  fill-color:
+    stops:
+      - - 4
+        - '#d4e7cc'
+      - - 9
+        - '#cde3c4'
+      - - 11
+        - '#c7e0bd'
+      - - 12
+        - '#ADD19E'

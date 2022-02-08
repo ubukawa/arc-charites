@@ -1,0 +1,37 @@
+id: road link (tunnel)(slash)tertiary(slash)casing
+type: line
+source: esri
+source-layer: road link (tunnel)
+filter:
+  - '=='
+  - _symbol
+  - 4
+minzoom: 11
+layout:
+  line-cap: round
+  line-join: round
+paint:
+  line-color: '#8f8f8f'
+  line-dasharray:
+    stops:
+      - - 11
+        - - 0.8
+          - 0.4
+      - - 16
+        - - 0.15
+          - 0.08
+  line-width:
+    base: 1.2
+    stops:
+      - - 11
+        - 1.5
+      - - 12
+        - 3
+      - - 14
+        - 7
+      - - 16
+        - 12
+      - - 17
+        - 13
+      - - 18
+        - 16

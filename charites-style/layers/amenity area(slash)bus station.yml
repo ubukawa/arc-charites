@@ -1,0 +1,16 @@
+id: amenity area(slash)bus station
+type: symbol
+source: esri
+source-layer: amenity area
+filter:
+  - all
+  - - '=='
+    - _symbol
+    - 70
+  - - '=='
+    - $type
+    - Point
+minzoom: 15
+layout:
+  icon-image: amenity area(slash)bus station
+  icon-allow-overlap: true

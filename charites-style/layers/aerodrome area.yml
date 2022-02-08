@@ -1,0 +1,13 @@
+id: aerodrome area
+type: symbol
+source: esri
+source-layer: aerodrome area
+filter:
+  - '=='
+  - $type
+  - Point
+minzoom: 9
+maxzoom: 17
+layout:
+  icon-image: aerodrome area
+  icon-allow-overlap: true

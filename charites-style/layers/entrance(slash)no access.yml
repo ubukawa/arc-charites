@@ -1,0 +1,14 @@
+id: entrance(slash)no access
+type: symbol
+source: esri
+source-layer: entrance
+filter:
+  - '=='
+  - _symbol
+  - 6
+minzoom: 18
+layout:
+  icon-image: entrance(slash)no access
+  icon-size: 0.8
+  icon-allow-overlap: false
+paint: {}

@@ -1,0 +1,16 @@
+id: amenity area(slash)nightclub
+type: symbol
+source: esri
+source-layer: amenity area
+filter:
+  - all
+  - - '=='
+    - _symbol
+    - 59
+  - - '=='
+    - $type
+    - Point
+minzoom: 16
+layout:
+  icon-image: amenity area(slash)nightclub
+  icon-allow-overlap: true

@@ -1,0 +1,13 @@
+id: interpolation
+type: line
+source: esri
+source-layer: interpolation
+minzoom: 16
+layout:
+  line-join: round
+paint:
+  line-color: '#666666'
+  line-dasharray:
+    - 2
+    - 4
+  line-width: 1

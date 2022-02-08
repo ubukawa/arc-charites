@@ -1,0 +1,12 @@
+id: landcover(slash)water treatment(slash)fill
+type: fill
+source: esri
+source-layer: landcover
+filter:
+  - '=='
+  - _symbol
+  - 53
+minzoom: 14
+layout: {}
+paint:
+  fill-color: '#ebdbe8'

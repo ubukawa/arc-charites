@@ -1,0 +1,12 @@
+id: wetland(slash)salt marsh(slash)fill
+type: fill
+source: esri
+source-layer: wetland
+filter:
+  - '=='
+  - _symbol
+  - 4
+minzoom: 4
+paint:
+  fill-antialias: false
+  fill-pattern: wetland(slash)salt marsh land

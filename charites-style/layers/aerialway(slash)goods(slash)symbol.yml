@@ -1,0 +1,17 @@
+id: aerialway(slash)goods(slash)symbol
+type: line
+source: esri
+source-layer: aerialway
+filter:
+  - '=='
+  - _symbol
+  - 1
+minzoom: 11
+layout:
+  line-join: round
+paint:
+  line-color: '#707070'
+  line-dasharray:
+    - 2
+    - 6
+  line-width: 3.5

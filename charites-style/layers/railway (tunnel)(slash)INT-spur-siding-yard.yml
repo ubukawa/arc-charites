@@ -1,0 +1,23 @@
+id: railway (tunnel)(slash)INT-spur-siding-yard
+type: line
+source: esri
+source-layer: railway (tunnel)
+filter:
+  - '=='
+  - _symbol
+  - 1
+minzoom: 12
+layout:
+  line-join: round
+paint:
+  line-color: '#AAAAAA'
+  line-dasharray:
+    - 1
+    - 1
+  line-width:
+    base: 1.2
+    stops:
+      - - 12
+        - 1.9
+      - - 17
+        - 2.7

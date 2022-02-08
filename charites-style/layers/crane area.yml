@@ -1,0 +1,12 @@
+id: crane area
+type: symbol
+source: esri
+source-layer: crane area
+filter:
+  - '=='
+  - $type
+  - Point
+minzoom: 15
+layout:
+  icon-image: crane area
+  icon-allow-overlap: true

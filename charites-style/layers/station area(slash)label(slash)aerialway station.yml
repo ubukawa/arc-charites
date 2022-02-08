@@ -1,0 +1,25 @@
+id: station area(slash)label(slash)aerialway station
+type: symbol
+source: esri
+source-layer: station area(slash)label
+filter:
+  - '=='
+  - _label_class
+  - 1
+minzoom: 13
+layout:
+  text-font:
+    - Arial Unicode MS Regular
+  text-size: 10
+  text-max-width: 6
+  text-line-height: 1.1
+  text-anchor: top
+  text-offset:
+    - 0
+    - 0.8
+  text-field: '{_name}'
+  text-optional: true
+paint:
+  text-color: '#4957AD'
+  text-halo-color: rgba(255,255,255,0.8)
+  text-halo-width: 1.5

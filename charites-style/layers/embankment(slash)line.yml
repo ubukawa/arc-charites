@@ -1,0 +1,11 @@
+id: embankment(slash)line
+type: line
+source: esri
+source-layer: embankment
+minzoom: 14
+layout:
+  line-cap: round
+  line-join: round
+paint:
+  line-color: '#7B7B7B'
+  line-width: 1

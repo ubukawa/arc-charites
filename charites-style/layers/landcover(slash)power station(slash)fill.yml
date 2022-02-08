@@ -1,0 +1,17 @@
+id: landcover(slash)power station(slash)fill
+type: fill
+source: esri
+source-layer: landcover
+filter:
+  - '=='
+  - _symbol
+  - 14
+minzoom: 9
+layout: {}
+paint:
+  fill-color:
+    stops:
+      - - 9
+        - '#ebdbe8'
+      - - 14
+        - '#E2CBDE'

@@ -1,0 +1,22 @@
+id: railway (bridge)(slash)tram(slash)line
+type: line
+source: esri
+source-layer: railway (bridge)
+filter:
+  - '=='
+  - _symbol
+  - 4
+minzoom: 12
+layout:
+  line-join: round
+paint:
+  line-color: '#444444'
+  line-width:
+    base: 1.2
+    stops:
+      - - 12
+        - 1
+      - - 14
+        - 1.5
+      - - 16
+        - 2

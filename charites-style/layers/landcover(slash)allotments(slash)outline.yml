@@ -1,0 +1,13 @@
+id: landcover(slash)allotments(slash)outline
+type: line
+source: esri
+source-layer: landcover
+filter:
+  - '=='
+  - _symbol
+  - 24
+minzoom: 15
+layout: {}
+paint:
+  line-color: '#afc9a4'
+  line-width: 0.5

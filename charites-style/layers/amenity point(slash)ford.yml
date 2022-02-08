@@ -1,0 +1,12 @@
+id: amenity point(slash)ford
+type: symbol
+source: esri
+source-layer: amenity point
+filter:
+  - '=='
+  - _symbol
+  - 74
+minzoom: 15
+layout:
+  icon-image: amenity point(slash)ford
+  icon-allow-overlap: false

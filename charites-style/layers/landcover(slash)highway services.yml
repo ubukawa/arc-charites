@@ -1,0 +1,12 @@
+id: landcover(slash)highway services
+type: fill
+source: esri
+source-layer: landcover
+filter:
+  - '=='
+  - _symbol
+  - 15
+minzoom: 9
+layout: {}
+paint:
+  fill-color: '#EFC8C8'

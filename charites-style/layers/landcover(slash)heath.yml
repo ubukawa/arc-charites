@@ -1,0 +1,20 @@
+id: landcover(slash)heath
+type: fill
+source: esri
+source-layer: landcover
+filter:
+  - '=='
+  - _symbol
+  - 44
+minzoom: 4
+layout: {}
+paint:
+  fill-antialias: false
+  fill-color:
+    stops:
+      - - 4
+        - '#e9eacb'
+      - - 10
+        - '#e6e8c4'
+      - - 12
+        - '#D6D99F'

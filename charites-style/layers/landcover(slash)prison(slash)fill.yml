@@ -1,0 +1,12 @@
+id: landcover(slash)prison(slash)fill
+type: fill
+source: esri
+source-layer: landcover
+filter:
+  - '=='
+  - _symbol
+  - 18
+minzoom: 9
+layout: {}
+paint:
+  fill-pattern: landcover(slash)prison

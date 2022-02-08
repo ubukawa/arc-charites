@@ -1,0 +1,12 @@
+id: amenity point(slash)firepit
+type: symbol
+source: esri
+source-layer: amenity point
+filter:
+  - '=='
+  - _symbol
+  - 14
+minzoom: 16
+layout:
+  icon-image: amenity point(slash)firepit
+  icon-allow-overlap: false

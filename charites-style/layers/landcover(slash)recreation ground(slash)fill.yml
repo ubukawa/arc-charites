@@ -1,0 +1,12 @@
+id: landcover(slash)recreation ground(slash)fill
+type: fill
+source: esri
+source-layer: landcover
+filter:
+  - '=='
+  - _symbol
+  - 4
+minzoom: 9
+layout: {}
+paint:
+  fill-color: '#DFFCE2'

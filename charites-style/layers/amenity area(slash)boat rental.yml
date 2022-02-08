@@ -1,0 +1,16 @@
+id: amenity area(slash)boat rental
+type: symbol
+source: esri
+source-layer: amenity area
+filter:
+  - all
+  - - '=='
+    - _symbol
+    - 84
+  - - '=='
+    - $type
+    - Point
+minzoom: 16
+layout:
+  icon-image: amenity area(slash)boat rental
+  icon-allow-overlap: true

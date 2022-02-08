@@ -1,0 +1,23 @@
+id: road (tunnel) (under construction)(slash)secondary link(slash)line
+type: line
+source: esri
+source-layer: road (tunnel) (under construction)
+filter:
+  - '=='
+  - _symbol
+  - 11
+minzoom: 12
+layout:
+  line-join: round
+paint:
+  line-color: '#FFFFFF'
+  line-width:
+    base: 1.2
+    stops:
+      - - 12
+        - 3.5
+      - - 15
+        - 5.8
+  line-dasharray:
+    - 1.5
+    - 1

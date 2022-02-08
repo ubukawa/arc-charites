@@ -1,0 +1,21 @@
+id: track (tunnel)(slash)grade1 and grade2(slash)line
+type: line
+source: esri
+source-layer: track (tunnel)
+filter:
+  - '=='
+  - _symbol
+  - 0
+minzoom: 12
+layout:
+  line-cap: round
+  line-join: round
+paint:
+  line-color: '#FFFFFF'
+  line-width:
+    base: 1.2
+    stops:
+      - - 12
+        - 2.5
+      - - 14
+        - 2.75

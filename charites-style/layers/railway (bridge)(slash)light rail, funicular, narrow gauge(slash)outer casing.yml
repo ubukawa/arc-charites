@@ -1,0 +1,14 @@
+id: railway (bridge)(slash)light rail, funicular, narrow gauge(slash)outer casing
+type: line
+source: esri
+source-layer: railway (bridge)
+filter:
+  - '=='
+  - _symbol
+  - 2
+minzoom: 13
+layout:
+  line-join: round
+paint:
+  line-color: '#000000'
+  line-width: 5.5

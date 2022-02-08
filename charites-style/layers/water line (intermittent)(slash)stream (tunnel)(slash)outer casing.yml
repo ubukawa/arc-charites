@@ -1,0 +1,13 @@
+id: water line (intermittent)(slash)stream (tunnel)(slash)outer casing
+type: line
+source: esri
+source-layer: water line (intermittent)
+filter:
+  - '=='
+  - _symbol
+  - 8
+minzoom: 14
+layout: {}
+paint:
+  line-color: '#F2EFE9'
+  line-width: 4.5

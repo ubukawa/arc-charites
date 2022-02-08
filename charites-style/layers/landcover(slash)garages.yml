@@ -1,0 +1,12 @@
+id: landcover(slash)garages
+type: fill
+source: esri
+source-layer: landcover
+filter:
+  - '=='
+  - _symbol
+  - 25
+minzoom: 12
+layout: {}
+paint:
+  fill-color: '#DFDDCE'

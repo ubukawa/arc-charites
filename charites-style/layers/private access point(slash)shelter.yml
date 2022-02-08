@@ -1,0 +1,31 @@
+id: private access point(slash)shelter
+type: symbol
+source: esri
+source-layer: private access point
+filter:
+  - '=='
+  - _symbol
+  - 12
+minzoom: 15
+layout:
+  icon-image: private access point(slash)shelter
+  icon-allow-overlap: false
+  text-font:
+    - Arial Unicode MS Regular
+  text-size: 10
+  text-max-width: 6
+  text-line-height: 1.1
+  text-anchor: top
+  text-offset:
+    - 0
+    - 0.8
+  text-field: '{_name5}'
+  text-optional: true
+paint:
+  text-opacity:
+    stops:
+      - - 15.5
+        - 0
+      - - 15.6
+        - 0.33
+  text-color: '#666666'

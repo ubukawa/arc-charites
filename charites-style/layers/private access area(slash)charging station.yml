@@ -1,0 +1,16 @@
+id: private access area(slash)charging station
+type: symbol
+source: esri
+source-layer: private access area
+filter:
+  - all
+  - - '=='
+    - _symbol
+    - 5
+  - - '=='
+    - $type
+    - Point
+minzoom: 16
+layout:
+  icon-image: private access area(slash)charging station
+  icon-allow-overlap: true

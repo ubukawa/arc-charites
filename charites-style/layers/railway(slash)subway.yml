@@ -1,0 +1,15 @@
+id: railway(slash)subway
+type: line
+source: esri
+source-layer: railway
+filter:
+  - '=='
+  - _symbol
+  - 6
+minzoom: 11
+layout:
+  line-cap: round
+  line-join: round
+paint:
+  line-color: '#999999'
+  line-width: 2

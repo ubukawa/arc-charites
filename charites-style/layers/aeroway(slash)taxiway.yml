@@ -1,0 +1,26 @@
+id: aeroway(slash)taxiway
+type: line
+source: esri
+source-layer: aeroway
+filter:
+  - '=='
+  - _symbol
+  - 1
+minzoom: 10
+layout:
+  line-join: round
+paint:
+  line-color: '#BBBBCC'
+  line-width:
+    base: 1.2
+    stops:
+      - - 10
+        - 1
+      - - 12
+        - 2
+      - - 13
+        - 4
+      - - 14
+        - 5
+      - - 15
+        - 6

@@ -1,0 +1,19 @@
+id: forest cutline
+type: line
+source: esri
+source-layer: forest cutline
+minzoom: 13
+layout:
+  line-cap: square
+  line-join: round
+paint:
+  line-color: '#CDEBB0'
+  line-width:
+    base: 1.2
+    stops:
+      - - 13
+        - 3
+      - - 15
+        - 6
+      - - 17
+        - 12

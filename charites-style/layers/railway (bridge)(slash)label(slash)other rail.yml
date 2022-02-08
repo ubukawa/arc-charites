@@ -1,0 +1,29 @@
+id: railway (bridge)(slash)label(slash)other rail
+type: symbol
+source: esri
+source-layer: railway (bridge)(slash)label
+filter:
+  - '=='
+  - _label_class
+  - 2
+minzoom: 16
+layout:
+  symbol-placement: line
+  symbol-spacing: 900
+  text-offset:
+    - 0
+    - 0.85
+  text-font:
+    - Arial Unicode MS Regular
+  text-size:
+    stops:
+      - - 16
+        - 10
+      - - 18
+        - 11
+  text-field: '{_name}'
+  text-optional: true
+paint:
+  text-color: '#666666'
+  text-halo-color: rgba(255,255,255,0.8)
+  text-halo-width: 1

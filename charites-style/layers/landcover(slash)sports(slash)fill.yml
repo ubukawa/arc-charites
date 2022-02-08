@@ -1,0 +1,12 @@
+id: landcover(slash)sports(slash)fill
+type: fill
+source: esri
+source-layer: landcover
+filter:
+  - '=='
+  - _symbol
+  - 6
+minzoom: 9
+layout: {}
+paint:
+  fill-color: '#dffce2'

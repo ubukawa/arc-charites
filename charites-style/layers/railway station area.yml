@@ -1,0 +1,20 @@
+id: railway station area
+type: symbol
+source: esri
+source-layer: railway station area
+filter:
+  - '=='
+  - $type
+  - Point
+minzoom: 11
+layout:
+  icon-image: railway station area
+  icon-size:
+    stops:
+      - - 11
+        - 0.44
+      - - 12
+        - 0.67
+      - - 14
+        - 1
+  icon-allow-overlap: true

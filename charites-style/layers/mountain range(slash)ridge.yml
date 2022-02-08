@@ -1,0 +1,24 @@
+id: mountain range(slash)ridge
+type: line
+source: esri
+source-layer: mountain range
+filter:
+  - '=='
+  - _symbol
+  - 1
+minzoom: 13
+layout:
+  line-join: round
+paint:
+  line-pattern:
+    stops:
+      - - 13
+        - mountain range(slash)ridge_1
+      - - 15
+        - mountain range(slash)ridge
+  line-width:
+    stops:
+      - - 14
+        - 20
+      - - 15
+        - 40

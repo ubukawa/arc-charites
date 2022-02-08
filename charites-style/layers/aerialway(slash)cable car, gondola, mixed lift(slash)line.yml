@@ -1,0 +1,15 @@
+id: aerialway(slash)cable car, gondola, mixed lift(slash)line
+type: line
+source: esri
+source-layer: aerialway
+filter:
+  - '=='
+  - _symbol
+  - 2
+minzoom: 11
+layout:
+  line-cap: round
+  line-join: round
+paint:
+  line-color: '#808080'
+  line-width: 1

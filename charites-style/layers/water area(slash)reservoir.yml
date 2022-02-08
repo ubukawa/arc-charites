@@ -1,0 +1,13 @@
+id: water area(slash)reservoir
+type: fill
+source: esri
+source-layer: water area
+filter:
+  - '=='
+  - _symbol
+  - 4
+minzoom: 0
+layout: {}
+paint:
+  fill-antialias: false
+  fill-color: '#AAD3DF'

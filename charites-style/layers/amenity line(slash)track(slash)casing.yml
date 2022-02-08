@@ -1,0 +1,22 @@
+id: amenity line(slash)track(slash)casing
+type: line
+source: esri
+source-layer: amenity line
+filter:
+  - '=='
+  - _symbol
+  - 3
+minzoom: 16
+layout:
+  line-join: round
+paint:
+  line-color: '#28C98A'
+  line-width:
+    base: 1.2
+    stops:
+      - - 16
+        - 1.25
+      - - 17
+        - 2.5
+      - - 18
+        - 5

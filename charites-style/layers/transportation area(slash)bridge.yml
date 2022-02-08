@@ -1,0 +1,12 @@
+id: transportation area(slash)bridge
+type: fill
+source: esri
+source-layer: transportation area
+filter:
+  - '=='
+  - _symbol
+  - 1
+minzoom: 11
+layout: {}
+paint:
+  fill-color: '#B8B8B8'

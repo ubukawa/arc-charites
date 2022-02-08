@@ -1,0 +1,15 @@
+id: water line (perennial)(slash)stream (tunnel)(slash)line
+type: line
+source: esri
+source-layer: water line (perennial)
+filter:
+  - '=='
+  - _symbol
+  - 8
+minzoom: 14
+layout:
+  line-cap: round
+  line-join: round
+paint:
+  line-color: '#F3F7F7'
+  line-width: 1.8

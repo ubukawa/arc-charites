@@ -1,0 +1,12 @@
+id: private access point(slash)bench
+type: symbol
+source: esri
+source-layer: private access point
+filter:
+  - '=='
+  - _symbol
+  - 15
+minzoom: 18
+layout:
+  icon-image: private access point(slash)bench
+  icon-allow-overlap: false

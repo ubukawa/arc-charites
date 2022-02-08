@@ -1,0 +1,27 @@
+id: shop point(slash)carpet
+type: symbol
+source: esri
+source-layer: shop point
+filter:
+  - '=='
+  - _symbol
+  - 69
+minzoom: 17
+layout:
+  icon-image: shop point(slash)carpet
+  icon-allow-overlap: false
+  text-font:
+    - Arial Unicode MS Regular
+  text-size: 10
+  text-max-width: 6
+  text-line-height: 1.1
+  text-anchor: top
+  text-offset:
+    - 0
+    - 0.8
+  text-field: '{_name1}'
+  text-optional: true
+paint:
+  text-color: '#993399'
+  text-halo-color: rgba(255,255,255,0.8)
+  text-halo-width: 1

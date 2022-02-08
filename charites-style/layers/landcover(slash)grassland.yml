@@ -1,0 +1,20 @@
+id: landcover(slash)grassland
+type: fill
+source: esri
+source-layer: landcover
+filter:
+  - '=='
+  - _symbol
+  - 50
+minzoom: 4
+layout: {}
+paint:
+  fill-antialias: false
+  fill-color:
+    stops:
+      - - 7
+        - '#e1f3cf'
+      - - 10
+        - '#def2ca'
+      - - 12
+        - '#cdebb0'

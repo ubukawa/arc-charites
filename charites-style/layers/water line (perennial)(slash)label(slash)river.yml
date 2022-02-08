@@ -1,0 +1,27 @@
+id: water line (perennial)(slash)label(slash)river
+type: symbol
+source: esri
+source-layer: water line (perennial)(slash)label
+filter:
+  - '=='
+  - _label_class
+  - 0
+minzoom: 12
+layout:
+  symbol-placement: line
+  symbol-spacing: 400
+  text-font:
+    - Arial Unicode MS Regular
+  text-size:
+    stops:
+      - - 12
+        - 10
+      - - 13
+        - 12
+  text-field: '{_name}'
+  text-max-angle: 30
+  text-optional: true
+paint:
+  text-color: '#4D80B3'
+  text-halo-color: rgba(255,255,255,0.8)
+  text-halo-width: 1

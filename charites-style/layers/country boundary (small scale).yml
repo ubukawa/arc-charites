@@ -1,0 +1,20 @@
+id: country boundary (small scale)
+type: line
+source: esri
+source-layer: country boundary (small scale)
+minzoom: 0
+maxzoom: 3
+layout:
+  line-cap: round
+  line-join: round
+paint:
+  line-color: '#8d618b'
+  line-width:
+    base: 1.2
+    stops:
+      - - 0
+        - 0.2
+      - - 1
+        - 0.3
+      - - 2
+        - 0.4

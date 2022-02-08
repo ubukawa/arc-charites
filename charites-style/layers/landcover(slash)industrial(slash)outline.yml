@@ -1,0 +1,13 @@
+id: landcover(slash)industrial(slash)outline
+type: line
+source: esri
+source-layer: landcover
+filter:
+  - '=='
+  - _symbol
+  - 29
+minzoom: 15
+layout: {}
+paint:
+  line-color: '#c6b3c3'
+  line-width: 0.5

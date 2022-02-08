@@ -1,0 +1,27 @@
+id: road (bridge) (under construction)(slash)road, raceway(slash)line
+type: line
+source: esri
+source-layer: road (bridge) (under construction)
+filter:
+  - '=='
+  - _symbol
+  - 13
+minzoom: 14
+layout:
+  line-join: round
+paint:
+  line-color: '#dddddd'
+  line-width:
+    base: 1.2
+    stops:
+      - - 14
+        - 2
+      - - 15
+        - 2.3
+      - - 16
+        - 5.4
+      - - 17
+        - 7
+  line-dasharray:
+    - 1.5
+    - 1

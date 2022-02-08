@@ -1,0 +1,15 @@
+id: aerialway(slash)cable car, gondola, mixed lift(slash)symbol
+type: symbol
+source: esri
+source-layer: aerialway
+filter:
+  - '=='
+  - _symbol
+  - 2
+minzoom: 11
+layout:
+  symbol-placement: line
+  icon-image: aerialway(slash)cable car, gondola, mixed lift(slash)0
+  symbol-spacing: 13
+  icon-rotation-alignment: map
+  icon-allow-overlap: true

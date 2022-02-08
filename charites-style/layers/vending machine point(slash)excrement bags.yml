@@ -1,0 +1,12 @@
+id: vending machine point(slash)excrement bags
+type: symbol
+source: esri
+source-layer: vending machine point
+filter:
+  - '=='
+  - _symbol
+  - 0
+minzoom: 18
+layout:
+  icon-image: vending machine point(slash)excrement bags
+  icon-allow-overlap: false

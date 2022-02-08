@@ -1,0 +1,23 @@
+id: railway(slash)construction
+type: line
+source: esri
+source-layer: railway
+filter:
+  - '=='
+  - _symbol
+  - 10
+minzoom: 12
+layout:
+  line-join: round
+paint:
+  line-color: '#808080'
+  line-width:
+    base: 1.2
+    stops:
+      - - 12
+        - 2
+      - - 14
+        - 3
+  line-dasharray:
+    - 1
+    - 1

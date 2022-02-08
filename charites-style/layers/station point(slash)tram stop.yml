@@ -1,0 +1,39 @@
+id: station point(slash)tram stop
+type: symbol
+source: esri
+source-layer: station point
+filter:
+  - '=='
+  - _symbol
+  - 0
+minzoom: 13
+layout:
+  icon-image: station point(slash)tram stop
+  icon-size:
+    stops:
+      - - 13
+        - 0.67
+      - - 14
+        - 1
+  icon-allow-overlap: false
+  text-max-width: 6
+  text-line-height: 1.1
+  text-font:
+    - Arial Unicode MS Regular
+  text-size: 10
+  text-anchor: top
+  text-offset:
+    - 0
+    - 0.8
+  text-field: '{_name}'
+  text-optional: true
+paint:
+  text-opacity:
+    stops:
+      - - 14.5
+        - 0
+      - - 14.6
+        - 1
+  text-color: '#4957AD'
+  text-halo-color: rgba(255,255,255,0.8)
+  text-halo-width: 1.5

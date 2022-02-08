@@ -1,0 +1,28 @@
+id: Daylight building(slash)label(slash)Default
+type: symbol
+source: esri
+source-layer: Daylight building(slash)label
+minzoom: 14
+layout:
+  text-font:
+    - Arial Unicode MS Regular
+  text-size:
+    stops:
+      - - 14
+        - 9.5
+      - - 16
+        - 11
+  text-max-width:
+    stops:
+      - - 14
+        - 5
+      - - 16
+        - 6
+  text-field: '{_name}'
+  text-padding: 3
+  text-line-height: 1
+  text-optional: true
+paint:
+  text-color: '#444444'
+  text-halo-color: rgba(255,255,255,0.8)
+  text-halo-width: 1

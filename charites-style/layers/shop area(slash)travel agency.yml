@@ -1,0 +1,21 @@
+id: shop area(slash)travel agency
+type: symbol
+source: esri
+source-layer: shop area
+filter:
+  - all
+  - - '=='
+    - _symbol
+    - 55
+  - - '=='
+    - $type
+    - Point
+minzoom: 16
+layout:
+  icon-image:
+    stops:
+      - - 16.5
+        - shop area(slash)travel agency_1
+      - - 16.6
+        - shop area(slash)travel agency
+  icon-allow-overlap: true

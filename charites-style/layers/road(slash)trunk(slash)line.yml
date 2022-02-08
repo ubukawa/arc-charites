@@ -1,0 +1,46 @@
+id: road(slash)trunk(slash)line
+type: line
+source: esri
+source-layer: road
+filter:
+  - '=='
+  - _symbol
+  - 1
+minzoom: 5
+layout:
+  line-cap: round
+  line-join: round
+paint:
+  line-color:
+    stops:
+      - - 5
+        - '#fdb59e'
+      - - 11
+        - '#f9b29c'
+  line-width:
+    base: 1.2
+    stops:
+      - - 5
+        - 0.4
+      - - 6
+        - 0.6
+      - - 7
+        - 1
+      - - 8
+        - 1.4
+      - - 9
+        - 1.9
+      - - 10
+        - 1.9
+      - - 11
+        - 2.5
+      - - 12
+        - 5
+      - - 15
+        - 8.6
+      - - 16
+        - 16
+      - - 17
+        - 19
+      - - 18
+        - 25

@@ -1,0 +1,49 @@
+id: railway station point
+type: symbol
+source: esri
+source-layer: railway station point
+minzoom: 11
+layout:
+  icon-image: railway station point
+  icon-size:
+    stops:
+      - - 11
+        - 0.44
+      - - 12
+        - 0.67
+      - - 14
+        - 1
+  icon-allow-overlap: true
+  text-font:
+    - Arial Unicode MS Bold
+  text-size:
+    stops:
+      - - 13
+        - 10
+      - - 14
+        - 11
+      - - 15
+        - 13
+  text-max-width: 5
+  text-line-height:
+    stops:
+      - - 13
+        - 1
+      - - 14
+        - 1.1
+  text-anchor: top
+  text-offset:
+    - 0
+    - 0.85
+  text-field: '{_name}'
+  text-optional: false
+paint:
+  text-opacity:
+    stops:
+      - - 12.5
+        - 0
+      - - 12.6
+        - 1
+  text-color: '#4957AD'
+  text-halo-color: rgba(255,255,255,0.8)
+  text-halo-width: 1.5

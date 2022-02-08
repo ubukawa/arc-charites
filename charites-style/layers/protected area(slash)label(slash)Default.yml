@@ -1,0 +1,21 @@
+id: protected area(slash)label(slash)Default
+type: symbol
+source: esri
+source-layer: protected area(slash)label
+minzoom: 7
+layout:
+  text-font:
+    - Arial Unicode MS Regular
+  text-size:
+    stops:
+      - - 7
+        - 11
+      - - 12
+        - 13
+  text-field: '{_name}'
+  text-max-width: 6
+  text-optional: true
+paint:
+  text-color: '#008000'
+  text-halo-color: rgba(255,255,255,0.8)
+  text-halo-width: 1

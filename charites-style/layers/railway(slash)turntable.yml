@@ -1,0 +1,15 @@
+id: railway(slash)turntable
+type: line
+source: esri
+source-layer: railway
+filter:
+  - '=='
+  - _symbol
+  - 13
+minzoom: 15
+layout:
+  line-cap: round
+  line-join: round
+paint:
+  line-color: '#999999'
+  line-width: 1.5

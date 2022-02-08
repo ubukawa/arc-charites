@@ -1,0 +1,21 @@
+id: shop area(slash)books
+type: symbol
+source: esri
+source-layer: shop area
+filter:
+  - all
+  - - '=='
+    - _symbol
+    - 8
+  - - '=='
+    - $type
+    - Point
+minzoom: 16
+layout:
+  icon-image:
+    stops:
+      - - 16.5
+        - shop area(slash)books_1
+      - - 16.6
+        - shop area(slash)books
+  icon-allow-overlap: true

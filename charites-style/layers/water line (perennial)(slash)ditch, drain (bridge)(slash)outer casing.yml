@@ -1,0 +1,14 @@
+id: water line (perennial)(slash)ditch, drain (bridge)(slash)outer casing
+type: line
+source: esri
+source-layer: water line (perennial)
+filter:
+  - '=='
+  - _symbol
+  - 2
+minzoom: 13
+layout:
+  line-join: round
+paint:
+  line-color: '#000000'
+  line-width: 4

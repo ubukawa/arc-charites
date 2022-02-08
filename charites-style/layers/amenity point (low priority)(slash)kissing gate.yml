@@ -1,0 +1,12 @@
+id: amenity point (low priority)(slash)kissing gate
+type: symbol
+source: esri
+source-layer: amenity point (low priority)
+filter:
+  - '=='
+  - _symbol
+  - 13
+minzoom: 16
+layout:
+  icon-image: amenity point (low priority)(slash)kissing gate
+  icon-allow-overlap: false

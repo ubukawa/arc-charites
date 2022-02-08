@@ -1,0 +1,12 @@
+id: wind turbine area
+type: symbol
+source: esri
+source-layer: wind turbine area
+filter:
+  - '=='
+  - $type
+  - Point
+minzoom: 14
+layout:
+  icon-image: wind turbine area
+  icon-allow-overlap: true

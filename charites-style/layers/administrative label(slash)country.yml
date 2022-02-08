@@ -1,0 +1,68 @@
+id: administrative label(slash)country
+type: symbol
+source: esri
+source-layer: administrative label(slash)label
+filter:
+  - '=='
+  - _label_class
+  - 0
+minzoom: 2
+maxzoom: 15
+layout:
+  text-font:
+    - Arial Unicode MS Regular
+  text-size:
+    stops:
+      - - 2
+        - 10
+      - - 3
+        - 11
+      - - 4
+        - 12
+      - - 6
+        - 13
+      - - 8
+        - 14
+      - - 9
+        - 15
+  text-max-width:
+    stops:
+      - - 2
+        - 6
+      - - 3
+        - 7
+      - - 4
+        - 8
+      - - 6
+        - 9
+      - - 9
+        - 10
+  text-padding:
+    stops:
+      - - 2
+        - 7
+      - - 3
+        - 7.7
+      - - 4
+        - 8.4
+      - - 6
+        - 9.1
+  text-line-height:
+    stops:
+      - - 2
+        - 1.2
+      - - 3
+        - 1.3
+      - - 4
+        - 1.4
+      - - 6
+        - 1.6
+      - - 9
+        - 1.8
+  text-letter-spacing: 0.05
+  text-field: '{_name}'
+  text-optional: true
+paint:
+  text-color: '#653f64'
+  text-halo-color: rgba(255,255,255,0.8)
+  text-halo-width: 1.5

@@ -1,0 +1,33 @@
+id: amenity point(slash)volcano
+type: symbol
+source: esri
+source-layer: amenity point
+filter:
+  - '=='
+  - _symbol
+  - 6
+minzoom: 10
+layout:
+  icon-image: amenity point(slash)volcano
+  icon-allow-overlap: false
+  text-font:
+    - Arial Unicode MS Regular
+  text-size: 10
+  text-max-width: 6
+  text-line-height: 1.1
+  text-anchor: top
+  text-offset:
+    - 0
+    - 0.8
+  text-field: '{_name21}'
+  text-optional: true
+paint:
+  text-opacity:
+    stops:
+      - - 11.5
+        - 0
+      - - 11.6
+        - 1
+  text-color: '#D40000'
+  text-halo-color: rgba(255,255,255,0.8)
+  text-halo-width: 1

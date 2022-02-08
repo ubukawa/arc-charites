@@ -1,0 +1,16 @@
+id: recycling place area(slash)public
+type: symbol
+source: esri
+source-layer: recycling place area
+filter:
+  - all
+  - - '=='
+    - _symbol
+    - 0
+  - - '=='
+    - $type
+    - Point
+minzoom: 16
+layout:
+  icon-image: recycling place area(slash)public
+  icon-allow-overlap: true

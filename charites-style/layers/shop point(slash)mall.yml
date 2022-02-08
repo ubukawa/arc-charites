@@ -1,0 +1,22 @@
+id: shop point(slash)mall
+type: symbol
+source: esri
+source-layer: shop point
+filter:
+  - '=='
+  - _symbol
+  - 36
+minzoom: 16
+layout:
+  text-font:
+    - Arial Unicode MS Regular
+  text-size: 12
+  text-max-width: 6
+  text-line-height: 1.1
+  text-anchor: center
+  text-field: '{_name1}'
+  text-optional: true
+paint:
+  text-color: '#d11700'
+  text-halo-color: rgba(255,255,255,0.8)
+  text-halo-width: 1

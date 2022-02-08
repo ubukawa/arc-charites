@@ -1,0 +1,30 @@
+id: road (bridge)(slash)secondary(slash)casing
+type: line
+source: esri
+source-layer: road (bridge)
+filter:
+  - '=='
+  - _symbol
+  - 3
+minzoom: 12
+layout:
+  line-join: round
+paint:
+  line-color: '#000000'
+  line-width:
+    base: 1.2
+    stops:
+      - - 12
+        - 5
+      - - 13
+        - 5
+      - - 14
+        - 9
+      - - 15
+        - 10
+      - - 16
+        - 18
+      - - 17
+        - 21
+      - - 18
+        - 27

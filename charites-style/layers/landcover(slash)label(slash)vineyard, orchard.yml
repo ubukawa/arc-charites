@@ -1,0 +1,42 @@
+id: landcover(slash)label(slash)vineyard, orchard
+type: symbol
+source: esri
+source-layer: landcover(slash)label
+filter:
+  - '=='
+  - _label_class
+  - 23
+minzoom: 9
+layout:
+  text-font:
+    - Arial Unicode MS Regular
+  text-size:
+    stops:
+      - - 9
+        - 10
+      - - 12
+        - 11
+      - - 15
+        - 12
+  text-max-width:
+    stops:
+      - - 9
+        - 5
+      - - 14
+        - 7
+      - - 16
+        - 8
+  text-line-height:
+    stops:
+      - - 9
+        - 1
+      - - 12
+        - 1.15
+      - - 15
+        - 1.2
+  text-field: '{_name}'
+  text-optional: true
+paint:
+  text-color: '#2D6122'
+  text-halo-color: rgba(255,255,255,0.8)
+  text-halo-width: 1

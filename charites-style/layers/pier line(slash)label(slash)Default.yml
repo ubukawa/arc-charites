@@ -1,0 +1,17 @@
+id: pier line(slash)label(slash)Default
+type: symbol
+source: esri
+source-layer: pier line(slash)label
+minzoom: 14
+layout:
+  symbol-placement: line
+  symbol-spacing: 400
+  text-font:
+    - Arial Unicode MS Regular
+  text-size: 10
+  text-field: '{_name}'
+  text-optional: true
+paint:
+  text-color: '#222222'
+  text-halo-color: rgba(255,255,255,0.8)
+  text-halo-width: 1

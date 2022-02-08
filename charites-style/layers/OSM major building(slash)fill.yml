@@ -1,0 +1,13 @@
+id: OSM major building(slash)fill
+type: fill
+source: esri
+source-layer: OSM major building
+minzoom: 14
+layout: {}
+paint:
+  fill-color:
+    stops:
+      - - 14
+        - '#cec3ba'
+      - - 15
+        - '#c4b6ab'

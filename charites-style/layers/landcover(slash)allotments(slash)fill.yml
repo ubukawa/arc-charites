@@ -1,0 +1,12 @@
+id: landcover(slash)allotments(slash)fill
+type: fill
+source: esri
+source-layer: landcover
+filter:
+  - '=='
+  - _symbol
+  - 24
+minzoom: 9
+layout: {}
+paint:
+  fill-color: '#c9e1bf'

@@ -1,0 +1,15 @@
+id: railway(slash)platform(slash)casing
+type: line
+source: esri
+source-layer: railway
+filter:
+  - '=='
+  - _symbol
+  - 12
+minzoom: 15
+layout:
+  line-cap: round
+  line-join: round
+paint:
+  line-color: '#808080'
+  line-width: 6

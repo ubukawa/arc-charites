@@ -1,0 +1,24 @@
+id: private access area(slash)label(slash)parking
+type: symbol
+source: esri
+source-layer: private access area(slash)label
+filter:
+  - '=='
+  - _label_class
+  - 0
+minzoom: 17
+layout:
+  text-font:
+    - Arial Unicode MS Regular
+  text-size: 10
+  text-max-width: 6
+  text-line-height: 1.1
+  text-anchor: top
+  text-offset:
+    - 0
+    - 0.8
+  text-field: '{_name}'
+  text-optional: true
+paint:
+  text-color: '#0066ff'
+  text-opacity: 0.33

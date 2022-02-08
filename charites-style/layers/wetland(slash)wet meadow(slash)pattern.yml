@@ -1,0 +1,18 @@
+id: wetland(slash)wet meadow(slash)pattern
+type: fill
+source: esri
+source-layer: wetland
+filter:
+  - '=='
+  - _symbol
+  - 7
+minzoom: 9
+layout: {}
+paint:
+  fill-antialias: false
+  fill-pattern:
+    stops:
+      - - 11.5
+        - wetland(slash)other
+      - - 11.6
+        - wetland(slash)wet meadow

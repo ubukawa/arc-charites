@@ -1,0 +1,26 @@
+id: road (tunnel)(slash)other(slash)line
+type: line
+source: esri
+source-layer: road (tunnel)
+filter:
+  - '=='
+  - _symbol
+  - 7
+minzoom: 13
+layout:
+  line-join: round
+paint:
+  line-color: '#DDDDDD'
+  line-width:
+    base: 1.2
+    stops:
+      - - 13
+        - 0.9
+      - - 15
+        - 2.3
+      - - 16
+        - 5.4
+      - - 17
+        - 6.9
+      - - 18
+        - 9.4

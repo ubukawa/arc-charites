@@ -1,0 +1,17 @@
+id: landcover(slash)golf course
+type: fill
+source: esri
+source-layer: landcover
+filter:
+  - '=='
+  - _symbol
+  - 47
+minzoom: 9
+layout: {}
+paint:
+  fill-color:
+    stops:
+      - - 11.5
+        - '#caebca'
+      - - 11.6
+        - '#b5e3b5'

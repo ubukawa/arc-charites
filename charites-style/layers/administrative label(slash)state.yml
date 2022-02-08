@@ -1,0 +1,53 @@
+id: administrative label(slash)state
+type: symbol
+source: esri
+source-layer: administrative label(slash)label
+filter:
+  - '=='
+  - _label_class
+  - 1
+minzoom: 4
+maxzoom: 15
+layout:
+  text-font:
+    - Arial Unicode MS Regular
+  text-size:
+    stops:
+      - - 4
+        - 10
+      - - 6
+        - 11
+      - - 8
+        - 12
+      - - 9
+        - 13
+      - - 11
+        - 15
+  text-max-width:
+    stops:
+      - - 4
+        - 8
+      - - 6
+        - 10
+  text-padding:
+    stops:
+      - - 4
+        - 7
+      - - 6
+        - 7.7
+  text-line-height:
+    stops:
+      - - 4
+        - 1
+      - - 6
+        - 1.2
+      - - 8
+        - 1.6
+      - - 10
+        - 1.8
+  text-field: '{_name}'
+  text-optional: true
+paint:
+  text-color: '#7E587D'
+  text-halo-color: rgba(255,255,255,0.8)
+  text-halo-width: 1.5

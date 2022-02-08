@@ -1,0 +1,12 @@
+id: transportation area(slash)runway
+type: fill
+source: esri
+source-layer: transportation area
+filter:
+  - '=='
+  - _symbol
+  - 5
+minzoom: 10
+layout: {}
+paint:
+  fill-color: '#BBBBCC'

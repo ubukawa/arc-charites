@@ -1,0 +1,16 @@
+id: amenity area(slash)traffic signal
+type: symbol
+source: esri
+source-layer: amenity area
+filter:
+  - all
+  - - '=='
+    - _symbol
+    - 68
+  - - '=='
+    - $type
+    - Point
+minzoom: 16
+layout:
+  icon-image: amenity area(slash)traffic signal
+  icon-allow-overlap: true

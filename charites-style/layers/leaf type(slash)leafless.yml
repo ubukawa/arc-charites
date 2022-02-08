@@ -1,0 +1,13 @@
+id: leaf type(slash)leafless
+type: fill
+source: esri
+source-layer: leaf type
+filter:
+  - '=='
+  - _symbol
+  - 3
+minzoom: 12
+layout: {}
+paint:
+  fill-antialias: false
+  fill-pattern: leaf type(slash)leafless

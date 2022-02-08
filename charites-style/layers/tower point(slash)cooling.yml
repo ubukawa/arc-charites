@@ -1,0 +1,33 @@
+id: tower point(slash)cooling
+type: symbol
+source: esri
+source-layer: tower point
+filter:
+  - '=='
+  - _symbol
+  - 9
+minzoom: 14
+layout:
+  icon-image: tower point(slash)cooling
+  icon-allow-overlap: false
+  text-font:
+    - Arial Unicode MS Regular
+  text-size: 10
+  text-max-width: 6
+  text-line-height: 1.1
+  text-anchor: top
+  text-offset:
+    - 0
+    - 0.8
+  text-field: '{_name}'
+  text-optional: true
+paint:
+  text-opacity:
+    stops:
+      - - 15.5
+        - 0
+      - - 15.6
+        - 1
+  text-color: '#333333'
+  text-halo-color: rgba(255,255,255,0.8)
+  text-halo-width: 1

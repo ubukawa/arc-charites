@@ -1,0 +1,13 @@
+id: landcover(slash)salt pond(slash)fill
+type: fill
+source: esri
+source-layer: landcover
+filter:
+  - '=='
+  - _symbol
+  - 55
+minzoom: 9
+layout: {}
+paint:
+  fill-antialias: false
+  fill-color: '#aad3df'
