@@ -223,58 +223,32 @@ layers:
   - !!inc/file layers/road (tunnel) (under construction)(slash)other(slash)casing.yml
   - !!inc/file layers/road (tunnel) (under construction)(slash)bridleway, cycleway, steps(slash)casing.yml
   - !!inc/file layers/road (tunnel) (under construction)(slash)service(slash)casing.yml
-  - !!inc/file layers/road (tunnel) (under construction)(slash)tertiary
-    link(slash)casing.yml
-  - !!inc/file layers/road (tunnel) (under
-    construction)(slash)tertiary(slash)casing.yml
-  - !!inc/file layers/road (tunnel) (under construction)(slash)secondary
-    link(slash)casing.yml
-  - !!inc/file layers/road (tunnel) (under
-    construction)(slash)secondary(slash)casing.yml
-  - !!inc/file layers/road (tunnel) (under construction)(slash)primary
-    link(slash)casing.yml
-  - !!inc/file layers/road (tunnel) (under
-    construction)(slash)primary(slash)casing.yml
-  - !!inc/file layers/road (tunnel) (under construction)(slash)trunk
-    link(slash)casing.yml
-  - !!inc/file layers/road (tunnel) (under
-    construction)(slash)trunk(slash)casing.yml
-  - !!inc/file layers/road (tunnel) (under construction)(slash)motorway
-    link(slash)casing.yml
-  - !!inc/file layers/road (tunnel) (under
-    construction)(slash)motorway(slash)casing.yml
-  - !!inc/file layers/road (tunnel) (under
-    construction)(slash)pedestrian(slash)line.yml
-  - !!inc/file layers/road (tunnel) (under construction)(slash)living
-    street(slash)line.yml
-  - !!inc/file layers/road (tunnel) (under construction)(slash)road,
-    raceway(slash)line.yml
-  - !!inc/file layers/road (tunnel) (under
-    construction)(slash)other(slash)line.yml
-  - !!inc/file layers/road (tunnel) (under construction)(slash)bridleway,
-    cycleway, steps(slash)line.yml
-  - !!inc/file layers/road (tunnel) (under
-    construction)(slash)service(slash)line.yml
-  - !!inc/file layers/road (tunnel) (under construction)(slash)tertiary
-    link(slash)line.yml
-  - !!inc/file layers/road (tunnel) (under
-    construction)(slash)tertiary(slash)line.yml
-  - !!inc/file layers/road (tunnel) (under construction)(slash)secondary
-    link(slash)line.yml
-  - !!inc/file layers/road (tunnel) (under
-    construction)(slash)secondary(slash)line.yml
-  - !!inc/file layers/road (tunnel) (under construction)(slash)primary
-    link(slash)line.yml
-  - !!inc/file layers/road (tunnel) (under
-    construction)(slash)primary(slash)line.yml
-  - !!inc/file layers/road (tunnel) (under construction)(slash)trunk
-    link(slash)line.yml
-  - !!inc/file layers/road (tunnel) (under
-    construction)(slash)trunk(slash)line.yml
-  - !!inc/file layers/road (tunnel) (under construction)(slash)motorway
-    link(slash)line.yml
-  - !!inc/file layers/road (tunnel) (under
-    construction)(slash)motorway(slash)line.yml
+  - !!inc/file layers/road (tunnel) (under construction)(slash)tertiary link(slash)casing.yml
+  - !!inc/file layers/road (tunnel) (under construction)(slash)tertiary(slash)casing.yml
+  - !!inc/file layers/road (tunnel) (under construction)(slash)secondary link(slash)casing.yml
+  - !!inc/file layers/road (tunnel) (under construction)(slash)secondary(slash)casing.yml
+  - !!inc/file layers/road (tunnel) (under construction)(slash)primary link(slash)casing.yml
+  - !!inc/file layers/road (tunnel) (under construction)(slash)primary(slash)casing.yml
+  - !!inc/file layers/road (tunnel) (under construction)(slash)trunk link(slash)casing.yml
+  - !!inc/file layers/road (tunnel) (under construction)(slash)trunk(slash)casing.yml
+  - !!inc/file layers/road (tunnel) (under construction)(slash)motorway link(slash)casing.yml
+  - !!inc/file layers/road (tunnel) (under construction)(slash)motorway(slash)casing.yml
+  - !!inc/file layers/road (tunnel) (under construction)(slash)pedestrian(slash)line.yml
+  - !!inc/file layers/road (tunnel) (under construction)(slash)living street(slash)line.yml
+  - !!inc/file layers/road (tunnel) (under construction)(slash)road, raceway(slash)line.yml
+  - !!inc/file layers/road (tunnel) (under construction)(slash)other(slash)line.yml
+  - !!inc/file layers/road (tunnel) (under construction)(slash)bridleway, cycleway, steps(slash)line.yml
+  - !!inc/file layers/road (tunnel) (under construction)(slash)service(slash)line.yml
+  - !!inc/file layers/road (tunnel) (under construction)(slash)tertiary link(slash)line.yml
+  - !!inc/file layers/road (tunnel) (under construction)(slash)tertiary(slash)line.yml
+  - !!inc/file layers/road (tunnel) (under construction)(slash)secondary link(slash)line.yml
+  - !!inc/file layers/road (tunnel) (under construction)(slash)secondary(slash)line.yml
+  - !!inc/file layers/road (tunnel) (under construction)(slash)primary link(slash)line.yml
+  - !!inc/file layers/road (tunnel) (under construction)(slash)primary(slash)line.yml
+  - !!inc/file layers/road (tunnel) (under construction)(slash)trunk link(slash)line.yml
+  - !!inc/file layers/road (tunnel) (under construction)(slash)trunk(slash)line.yml
+  - !!inc/file layers/road (tunnel) (under construction)(slash)motorway link(slash)line.yml
+  - !!inc/file layers/road (tunnel) (under construction)(slash)motorway(slash)line.yml
   - !!inc/file layers/track (tunnel)(slash)other(slash)outer casing.yml
   - !!inc/file layers/track (tunnel)(slash)other(slash)inner casing.yml
   - !!inc/file layers/track (tunnel)(slash)other(slash)line.yml
@@ -302,10 +276,8 @@ layers:
   - !!inc/file layers/road (tunnel)(slash)other(slash)line.yml
   - !!inc/file layers/road (tunnel)(slash)living street(slash)casing.yml
   - !!inc/file layers/road (tunnel)(slash)living street(slash)line.yml
-  - !!inc/file layers/road (tunnel)(slash)residential,
-    unclassified(slash)casing.yml
-  - !!inc/file layers/road (tunnel)(slash)residential,
-    unclassified(slash)line.yml
+  - !!inc/file layers/road (tunnel)(slash)residential, unclassified(slash)casing.yml
+  - !!inc/file layers/road (tunnel)(slash)residential, unclassified(slash)line.yml
   - !!inc/file layers/road link (tunnel)(slash)tertiary(slash)casing.yml
   - !!inc/file layers/road (tunnel)(slash)tertiary(slash)casing.yml
   - !!inc/file layers/road link (tunnel)(slash)tertiary(slash)line.yml
@@ -326,22 +298,14 @@ layers:
   - !!inc/file layers/road (tunnel)(slash)trunk(slash)line.yml
   - !!inc/file layers/road link (tunnel)(slash)motorway(slash)line.yml
   - !!inc/file layers/road (tunnel)(slash)motorway(slash)line.yml
-  - !!inc/file layers/road (tunnel) (access type)(slash)service road (minor) (no
-    public access).yml
-  - !!inc/file layers/road (tunnel) (access type)(slash)service road (normal)
-    (no public access).yml
-  - !!inc/file layers/road (tunnel) (access type)(slash)living street (no public
-    access).yml
-  - !!inc/file layers/road (tunnel) (access type)(slash)motorway, trunk,
-    primary, secondary, tertiary, residential road (no public access).yml
-  - !!inc/file layers/road (tunnel) (access type)(slash)service road (minor)
-    (destination access only).yml
-  - !!inc/file layers/road (tunnel) (access type)(slash)service road (normal)
-    (destination access only).yml
-  - !!inc/file layers/road (tunnel) (access type)(slash)living street
-    (destination access only).yml
-  - !!inc/file layers/road (tunnel) (access type)(slash)secondary, tertiary,
-    residential road (destination access only).yml
+  - !!inc/file layers/road (tunnel) (access type)(slash)service road (minor) (no public access).yml
+  - !!inc/file layers/road (tunnel) (access type)(slash)service road (normal) (no public access).yml
+  - !!inc/file layers/road (tunnel) (access type)(slash)living street (no public access).yml
+  - !!inc/file layers/road (tunnel) (access type)(slash)motorway, trunk, primary, secondary, tertiary, residential road (no public access).yml
+  - !!inc/file layers/road (tunnel) (access type)(slash)service road (minor) (destination access only).yml
+  - !!inc/file layers/road (tunnel) (access type)(slash)service road (normal) (destination access only).yml
+  - !!inc/file layers/road (tunnel) (access type)(slash)living street (destination access only).yml
+  - !!inc/file layers/road (tunnel) (access type)(slash)secondary, tertiary, residential road (destination access only).yml
   - !!inc/file layers/landcover(slash)military(slash)fill.yml
   - !!inc/file layers/landcover(slash)military(slash)outline.yml
   - !!inc/file layers/landcover(slash)amusement park(slash)inner outline.yml
@@ -367,30 +331,21 @@ layers:
   - !!inc/file layers/transportation area(slash)service.yml
   - !!inc/file layers/transportation area(slash)pedestrian.yml
   - !!inc/file layers/transportation area(slash)living street.yml
-  - !!inc/file layers/road (under
-    construction)(slash)pedestrian(slash)casing.yml
-  - !!inc/file layers/road (under construction)(slash)living
-    street(slash)casing.yml
-  - !!inc/file layers/road (under construction)(slash)road,
-    raceway(slash)casing.yml
+  - !!inc/file layers/road (under construction)(slash)pedestrian(slash)casing.yml
+  - !!inc/file layers/road (under construction)(slash)living street(slash)casing.yml
+  - !!inc/file layers/road (under construction)(slash)road, raceway(slash)casing.yml
   - !!inc/file layers/road (under construction)(slash)other(slash)casing.yml
-  - !!inc/file layers/road (under construction)(slash)bridleway, cycleway,
-    steps(slash)casing.yml
+  - !!inc/file layers/road (under construction)(slash)bridleway, cycleway, steps(slash)casing.yml
   - !!inc/file layers/road (under construction)(slash)service(slash)casing.yml
-  - !!inc/file layers/road (under construction)(slash)tertiary
-    link(slash)casing.yml
+  - !!inc/file layers/road (under construction)(slash)tertiary link(slash)casing.yml
   - !!inc/file layers/road (under construction)(slash)tertiary(slash)casing.yml
-  - !!inc/file layers/road (under construction)(slash)secondary
-    link(slash)casing.yml
+  - !!inc/file layers/road (under construction)(slash)secondary link(slash)casing.yml
   - !!inc/file layers/road (under construction)(slash)secondary(slash)casing.yml
-  - !!inc/file layers/road (under construction)(slash)primary
-    link(slash)casing.yml
+  - !!inc/file layers/road (under construction)(slash)primary link(slash)casing.yml
   - !!inc/file layers/road (under construction)(slash)primary(slash)casing.yml
-  - !!inc/file layers/road (under construction)(slash)trunk
-    link(slash)casing.yml
+  - !!inc/file layers/road (under construction)(slash)trunk link(slash)casing.yml
   - !!inc/file layers/road (under construction)(slash)trunk(slash)casing.yml
-  - !!inc/file layers/road (under construction)(slash)motorway
-    link(slash)casing.yml
+  - !!inc/file layers/road (under construction)(slash)motorway link(slash)casing.yml
   - !!inc/file layers/road (under construction)(slash)motorway(slash)casing.yml
   - !!inc/file layers/track(slash)other(slash)casing.yml
   - !!inc/file layers/track(slash)grade5(slash)casing.yml
@@ -424,27 +379,20 @@ layers:
   - !!inc/file layers/road(slash)trunk(slash)casing.yml
   - !!inc/file layers/road(slash)motorway(slash)casing.yml
   - !!inc/file layers/road (under construction)(slash)pedestrian(slash)line.yml
-  - !!inc/file layers/road (under construction)(slash)living
-    street(slash)line.yml
-  - !!inc/file layers/road (under construction)(slash)road,
-    raceway(slash)line.yml
+  - !!inc/file layers/road (under construction)(slash)living street(slash)line.yml
+  - !!inc/file layers/road (under construction)(slash)road, raceway(slash)line.yml
   - !!inc/file layers/road (under construction)(slash)other(slash)line.yml
-  - !!inc/file layers/road (under construction)(slash)bridleway, cycleway,
-    steps(slash)line.yml
+  - !!inc/file layers/road (under construction)(slash)bridleway, cycleway, steps(slash)line.yml
   - !!inc/file layers/road (under construction)(slash)service(slash)line.yml
-  - !!inc/file layers/road (under construction)(slash)tertiary
-    link(slash)line.yml
+  - !!inc/file layers/road (under construction)(slash)tertiary link(slash)line.yml
   - !!inc/file layers/road (under construction)(slash)tertiary(slash)line.yml
-  - !!inc/file layers/road (under construction)(slash)secondary
-    link(slash)line.yml
+  - !!inc/file layers/road (under construction)(slash)secondary link(slash)line.yml
   - !!inc/file layers/road (under construction)(slash)secondary(slash)line.yml
-  - !!inc/file layers/road (under construction)(slash)primary
-    link(slash)line.yml
+  - !!inc/file layers/road (under construction)(slash)primary link(slash)line.yml
   - !!inc/file layers/road (under construction)(slash)primary(slash)line.yml
   - !!inc/file layers/road (under construction)(slash)trunk link(slash)line.yml
   - !!inc/file layers/road (under construction)(slash)trunk(slash)line.yml
-  - !!inc/file layers/road (under construction)(slash)motorway
-    link(slash)line.yml
+  - !!inc/file layers/road (under construction)(slash)motorway link(slash)line.yml
   - !!inc/file layers/road (under construction)(slash)motorway(slash)line.yml
   - !!inc/file layers/track(slash)other(slash)line.yml
   - !!inc/file layers/track(slash)grade5(slash)line.yml
@@ -483,22 +431,14 @@ layers:
   - !!inc/file layers/road(slash)trunk(slash)line.yml
   - !!inc/file layers/road(slash)motorway(slash)halo.yml
   - !!inc/file layers/road(slash)motorway(slash)line.yml
-  - !!inc/file layers/road (access type)(slash)service road (minor) (no public
-    access).yml
-  - !!inc/file layers/road (access type)(slash)service road (normal) (no public
-    access).yml
-  - !!inc/file layers/road (access type)(slash)living street (no public
-    access).yml
-  - !!inc/file layers/road (access type)(slash)motorway, trunk, primary,
-    secondary, tertiary, residential road (no public access).yml
-  - !!inc/file layers/road (access type)(slash)service road (minor) (destination
-    access only).yml
-  - !!inc/file layers/road (access type)(slash)service road (normal)
-    (destination access only).yml
-  - !!inc/file layers/road (access type)(slash)living street (destination access
-    only).yml
-  - !!inc/file layers/road (access type)(slash)secondary, tertiary, residential
-    road (destination access only).yml
+  - !!inc/file layers/road (access type)(slash)service road (minor) (no public access).yml
+  - !!inc/file layers/road (access type)(slash)service road (normal) (no public access).yml
+  - !!inc/file layers/road (access type)(slash)living street (no public access).yml
+  - !!inc/file layers/road (access type)(slash)motorway, trunk, primary, secondary, tertiary, residential road (no public access).yml
+  - !!inc/file layers/road (access type)(slash)service road (minor) (destination access only).yml
+  - !!inc/file layers/road (access type)(slash)service road (normal) (destination access only).yml
+  - !!inc/file layers/road (access type)(slash)living street (destination access only).yml
+  - !!inc/file layers/road (access type)(slash)secondary, tertiary, residential road (destination access only).yml
   - !!inc/file layers/railway(slash)turntable.yml
   - !!inc/file layers/railway(slash)platform(slash)casing.yml
   - !!inc/file layers/railway(slash)platform(slash)line.yml
@@ -534,50 +474,29 @@ layers:
   - !!inc/file layers/pipeline(slash)gas(slash)symbol.yml
   - !!inc/file layers/goods conveyor(slash)casing.yml
   - !!inc/file layers/goods conveyor(slash)line.yml
-  - !!inc/file layers/aerialway(slash)cable car, gondola, mixed
-    lift(slash)line.yml
-  - !!inc/file layers/aerialway(slash)cable car, gondola, mixed
-    lift(slash)symbol.yml
+  - !!inc/file layers/aerialway(slash)cable car, gondola, mixed lift(slash)line.yml
+  - !!inc/file layers/aerialway(slash)cable car, gondola, mixed lift(slash)symbol.yml
   - !!inc/file layers/aerialway(slash)goods(slash)line.yml
   - !!inc/file layers/aerialway(slash)goods(slash)symbol.yml
-  - !!inc/file layers/aerialway(slash)chair lift, drag lift, t-bar, j-bar,
-    platter, rope tow, zip line(slash)line.yml
-  - !!inc/file layers/aerialway(slash)chair lift, drag lift, t-bar, j-bar,
-    platter, rope tow, zip line(slash)symbol.yml
-  - !!inc/file layers/water line (intermittent)(slash)ditch, drain
-    (bridge)(slash)outer casing.yml
-  - !!inc/file layers/water line (intermittent)(slash)ditch, drain
-    (bridge)(slash)inner casing.yml
-  - !!inc/file layers/water line (intermittent)(slash)ditch, drain
-    (bridge)(slash)line.yml
-  - !!inc/file layers/water line (intermittent)(slash)stream
-    (bridge)(slash)outer casing.yml
-  - !!inc/file layers/water line (intermittent)(slash)stream
-    (bridge)(slash)inner casing.yml
-  - !!inc/file layers/water line (intermittent)(slash)stream
-    (bridge)(slash)line.yml
-  - !!inc/file layers/water line (intermittent)(slash)river, canal
-    (bridge)(slash)outer casing.yml
-  - !!inc/file layers/water line (intermittent)(slash)river, canal
-    (bridge)(slash)inner casing.yml
-  - !!inc/file layers/water line (intermittent)(slash)river, canal
-    (bridge)(slash)line.yml
-  - !!inc/file layers/water line (perennial)(slash)ditch, drain
-    (bridge)(slash)outer casing.yml
-  - !!inc/file layers/water line (perennial)(slash)ditch, drain
-    (bridge)(slash)inner casing.yml
-  - !!inc/file layers/water line (perennial)(slash)ditch, drain
-    (bridge)(slash)line.yml
-  - !!inc/file layers/water line (perennial)(slash)stream (bridge)(slash)outer
-    casing.yml
-  - !!inc/file layers/water line (perennial)(slash)stream (bridge)(slash)inner
-    casing.yml
-  - !!inc/file layers/water line (perennial)(slash)stream
-    (bridge)(slash)line.yml
-  - !!inc/file layers/water line (perennial)(slash)river, canal
-    (bridge)(slash)casing.yml
-  - !!inc/file layers/water line (perennial)(slash)river, canal
-    (bridge)(slash)line.yml
+  - !!inc/file layers/aerialway(slash)chair lift, drag lift, t-bar, j-bar, platter, rope tow, zip line(slash)line.yml
+  - !!inc/file layers/aerialway(slash)chair lift, drag lift, t-bar, j-bar, platter, rope tow, zip line(slash)symbol.yml
+  - !!inc/file layers/water line (intermittent)(slash)ditch, drain (bridge)(slash)outer casing.yml
+  - !!inc/file layers/water line (intermittent)(slash)ditch, drain (bridge)(slash)inner casing.yml
+  - !!inc/file layers/water line (intermittent)(slash)ditch, drain (bridge)(slash)line.yml
+  - !!inc/file layers/water line (intermittent)(slash)stream (bridge)(slash)outer casing.yml
+  - !!inc/file layers/water line (intermittent)(slash)stream (bridge)(slash)inner casing.yml
+  - !!inc/file layers/water line (intermittent)(slash)stream (bridge)(slash)line.yml
+  - !!inc/file layers/water line (intermittent)(slash)river, canal (bridge)(slash)outer casing.yml
+  - !!inc/file layers/water line (intermittent)(slash)river, canal (bridge)(slash)inner casing.yml
+  - !!inc/file layers/water line (intermittent)(slash)river, canal (bridge)(slash)line.yml
+  - !!inc/file layers/water line (perennial)(slash)ditch, drain (bridge)(slash)outer casing.yml
+  - !!inc/file layers/water line (perennial)(slash)ditch, drain (bridge)(slash)inner casing.yml
+  - !!inc/file layers/water line (perennial)(slash)ditch, drain (bridge)(slash)line.yml
+  - !!inc/file layers/water line (perennial)(slash)stream (bridge)(slash)outer casing.yml
+  - !!inc/file layers/water line (perennial)(slash)stream (bridge)(slash)inner casing.yml
+  - !!inc/file layers/water line (perennial)(slash)stream (bridge)(slash)line.yml
+  - !!inc/file layers/water line (perennial)(slash)river, canal (bridge)(slash)casing.yml
+  - !!inc/file layers/water line (perennial)(slash)river, canal (bridge)(slash)line.yml
   - !!inc/file layers/railway (bridge)(slash)disused(slash)outer casing.yml
   - !!inc/file layers/railway (bridge)(slash)construction(slash)outer casing.yml
   - !!inc/file layers/railway (bridge)(slash)monorail(slash)outer casing.yml
@@ -587,46 +506,27 @@ layers:
   - !!inc/file layers/railway (bridge)(slash)tram-service(slash)outer casing.yml
   - !!inc/file layers/railway (bridge)(slash)tram(slash)outer casing.yml
   - !!inc/file layers/railway (bridge)(slash)miniature(slash)outer casing.yml
-  - !!inc/file layers/railway (bridge)(slash)light rail, funicular, narrow
-    gauge(slash)outer casing.yml
-  - !!inc/file layers/railway (bridge)(slash)INT-spur-siding-yard(slash)outer
-    casing.yml
+  - !!inc/file layers/railway (bridge)(slash)light rail, funicular, narrow gauge(slash)outer casing.yml
+  - !!inc/file layers/railway (bridge)(slash)INT-spur-siding-yard(slash)outer casing.yml
   - !!inc/file layers/railway (bridge)(slash)rail(slash)outer casing.yml
-  - !!inc/file layers/road (bridge) (under
-    construction)(slash)pedestrian(slash)casing.yml
-  - !!inc/file layers/road (bridge) (under construction)(slash)living
-    street(slash)casing.yml
-  - !!inc/file layers/road (bridge) (under construction)(slash)road,
-    raceway(slash)casing.yml
-  - !!inc/file layers/road (bridge) (under
-    construction)(slash)other(slash)casing.yml
-  - !!inc/file layers/road (bridge) (under construction)(slash)bridleway,
-    cycleway, steps(slash)casing.yml
-  - !!inc/file layers/road (bridge) (under
-    construction)(slash)service(slash)casing.yml
-  - !!inc/file layers/road (bridge) (under construction)(slash)tertiary
-    link(slash)casing.yml
-  - !!inc/file layers/road (bridge) (under
-    construction)(slash)tertiary(slash)casing.yml
-  - !!inc/file layers/road (bridge) (under construction)(slash)secondary
-    link(slash)casing.yml
-  - !!inc/file layers/road (bridge) (under
-    construction)(slash)secondary(slash)casing.yml
-  - !!inc/file layers/road (bridge) (under construction)(slash)primary
-    link(slash)casing.yml
-  - !!inc/file layers/road (bridge) (under
-    construction)(slash)primary(slash)casing.yml
-  - !!inc/file layers/road (bridge) (under construction)(slash)trunk
-    link(slash)casing.yml
-  - !!inc/file layers/road (bridge) (under
-    construction)(slash)trunk(slash)casing.yml
-  - !!inc/file layers/road (bridge) (under construction)(slash)motorway
-    link(slash)casing.yml
-  - !!inc/file layers/road (bridge) (under
-    construction)(slash)motorway(slash)casing.yml
+  - !!inc/file layers/road (bridge) (under construction)(slash)pedestrian(slash)casing.yml
+  - !!inc/file layers/road (bridge) (under construction)(slash)living street(slash)casing.yml
+  - !!inc/file layers/road (bridge) (under construction)(slash)road, raceway(slash)casing.yml
+  - !!inc/file layers/road (bridge) (under construction)(slash)other(slash)casing.yml
+  - !!inc/file layers/road (bridge) (under construction)(slash)bridleway, cycleway, steps(slash)casing.yml
+  - !!inc/file layers/road (bridge) (under construction)(slash)service(slash)casing.yml
+  - !!inc/file layers/road (bridge) (under construction)(slash)tertiary link(slash)casing.yml
+  - !!inc/file layers/road (bridge) (under construction)(slash)tertiary(slash)casing.yml
+  - !!inc/file layers/road (bridge) (under construction)(slash)secondary link(slash)casing.yml
+  - !!inc/file layers/road (bridge) (under construction)(slash)secondary(slash)casing.yml
+  - !!inc/file layers/road (bridge) (under construction)(slash)primary link(slash)casing.yml
+  - !!inc/file layers/road (bridge) (under construction)(slash)primary(slash)casing.yml
+  - !!inc/file layers/road (bridge) (under construction)(slash)trunk link(slash)casing.yml
+  - !!inc/file layers/road (bridge) (under construction)(slash)trunk(slash)casing.yml
+  - !!inc/file layers/road (bridge) (under construction)(slash)motorway link(slash)casing.yml
+  - !!inc/file layers/road (bridge) (under construction)(slash)motorway(slash)casing.yml
   - !!inc/file layers/track (bridge)(slash)other(slash)outer casing.yml
-  - !!inc/file layers/track (bridge)(slash)grade1 and grade2(slash)outer
-    casing.yml
+  - !!inc/file layers/track (bridge)(slash)grade1 and grade2(slash)outer casing.yml
   - !!inc/file layers/other path (bridge)(slash)steps(slash)outer casing.yml
   - !!inc/file layers/other path (bridge)(slash)bridleway(slash)outer casing.yml
   - !!inc/file layers/path (bridge)(slash)footway(slash)outer casing.yml
@@ -636,8 +536,7 @@ layers:
   - !!inc/file layers/road (bridge)(slash)pedestrian(slash)casing.yml
   - !!inc/file layers/road (bridge)(slash)other(slash)casing.yml
   - !!inc/file layers/road (bridge)(slash)living street(slash)casing.yml
-  - !!inc/file layers/road (bridge)(slash)residential,
-    unclassified(slash)casing.yml
+  - !!inc/file layers/road (bridge)(slash)residential, unclassified(slash)casing.yml
   - !!inc/file layers/road link (bridge)(slash)tertiary(slash)casing.yml
   - !!inc/file layers/road (bridge)(slash)tertiary(slash)casing.yml
   - !!inc/file layers/road link (bridge)(slash)secondary(slash)casing.yml
@@ -667,54 +566,32 @@ layers:
   - !!inc/file layers/railway (bridge)(slash)miniature(slash)inner casing.yml
   - !!inc/file layers/railway (bridge)(slash)miniature(slash)line.yml
   - !!inc/file layers/railway (bridge)(slash)miniature(slash)symbol.yml
-  - !!inc/file layers/railway (bridge)(slash)light rail, funicular, narrow
-    gauge(slash)inner casing.yml
-  - !!inc/file layers/railway (bridge)(slash)light rail, funicular, narrow
-    gauge(slash)line.yml
-  - !!inc/file layers/railway (bridge)(slash)INT-spur-siding-yard(slash)inner
-    casing.yml
-  - !!inc/file layers/railway (bridge)(slash)INT-spur-siding-yard(slash)outer
-    line.yml
-  - !!inc/file layers/railway (bridge)(slash)INT-spur-siding-yard(slash)inner
-    line.yml
+  - !!inc/file layers/railway (bridge)(slash)light rail, funicular, narrow gauge(slash)inner casing.yml
+  - !!inc/file layers/railway (bridge)(slash)light rail, funicular, narrow gauge(slash)line.yml
+  - !!inc/file layers/railway (bridge)(slash)INT-spur-siding-yard(slash)inner casing.yml
+  - !!inc/file layers/railway (bridge)(slash)INT-spur-siding-yard(slash)outer line.yml
+  - !!inc/file layers/railway (bridge)(slash)INT-spur-siding-yard(slash)inner line.yml
   - !!inc/file layers/railway (bridge)(slash)rail(slash)inner casing.yml
   - !!inc/file layers/railway (bridge)(slash)rail(slash)outer line.yml
   - !!inc/file layers/railway (bridge)(slash)rail(slash)inner line.yml
-  - !!inc/file layers/road (bridge) (under
-    construction)(slash)pedestrian(slash)line.yml
-  - !!inc/file layers/road (bridge) (under construction)(slash)living
-    street(slash)line.yml
-  - !!inc/file layers/road (bridge) (under construction)(slash)road,
-    raceway(slash)line.yml
-  - !!inc/file layers/road (bridge) (under
-    construction)(slash)other(slash)line.yml
-  - !!inc/file layers/road (bridge) (under construction)(slash)bridleway,
-    cycleway, steps(slash)line.yml
-  - !!inc/file layers/road (bridge) (under
-    construction)(slash)service(slash)line.yml
-  - !!inc/file layers/road (bridge) (under construction)(slash)tertiary
-    link(slash)line.yml
-  - !!inc/file layers/road (bridge) (under
-    construction)(slash)tertiary(slash)line.yml
-  - !!inc/file layers/road (bridge) (under construction)(slash)secondary
-    link(slash)line.yml
-  - !!inc/file layers/road (bridge) (under
-    construction)(slash)secondary(slash)line.yml
-  - !!inc/file layers/road (bridge) (under construction)(slash)primary
-    link(slash)line.yml
-  - !!inc/file layers/road (bridge) (under
-    construction)(slash)primary(slash)line.yml
-  - !!inc/file layers/road (bridge) (under construction)(slash)trunk
-    link(slash)line.yml
-  - !!inc/file layers/road (bridge) (under
-    construction)(slash)trunk(slash)line.yml
-  - !!inc/file layers/road (bridge) (under construction)(slash)motorway
-    link(slash)line.yml
-  - !!inc/file layers/road (bridge) (under
-    construction)(slash)motorway(slash)line.yml
+  - !!inc/file layers/road (bridge) (under construction)(slash)pedestrian(slash)line.yml
+  - !!inc/file layers/road (bridge) (under construction)(slash)living street(slash)line.yml
+  - !!inc/file layers/road (bridge) (under construction)(slash)road, raceway(slash)line.yml
+  - !!inc/file layers/road (bridge) (under construction)(slash)other(slash)line.yml
+  - !!inc/file layers/road (bridge) (under construction)(slash)bridleway, cycleway, steps(slash)line.yml
+  - !!inc/file layers/road (bridge) (under construction)(slash)service(slash)line.yml
+  - !!inc/file layers/road (bridge) (under construction)(slash)tertiary link(slash)line.yml
+  - !!inc/file layers/road (bridge) (under construction)(slash)tertiary(slash)line.yml
+  - !!inc/file layers/road (bridge) (under construction)(slash)secondary link(slash)line.yml
+  - !!inc/file layers/road (bridge) (under construction)(slash)secondary(slash)line.yml
+  - !!inc/file layers/road (bridge) (under construction)(slash)primary link(slash)line.yml
+  - !!inc/file layers/road (bridge) (under construction)(slash)primary(slash)line.yml
+  - !!inc/file layers/road (bridge) (under construction)(slash)trunk link(slash)line.yml
+  - !!inc/file layers/road (bridge) (under construction)(slash)trunk(slash)line.yml
+  - !!inc/file layers/road (bridge) (under construction)(slash)motorway link(slash)line.yml
+  - !!inc/file layers/road (bridge) (under construction)(slash)motorway(slash)line.yml
   - !!inc/file layers/track (bridge)(slash)other(slash)inner casing.yml
-  - !!inc/file layers/track (bridge)(slash)grade1 and grade2(slash)inner
-    casing.yml
+  - !!inc/file layers/track (bridge)(slash)grade1 and grade2(slash)inner casing.yml
   - !!inc/file layers/track (bridge)(slash)other(slash)line.yml
   - !!inc/file layers/track (bridge)(slash)grade1 and grade2(slash)line.yml
   - !!inc/file layers/other path (bridge)(slash)steps(slash)inner casing.yml
@@ -730,8 +607,7 @@ layers:
   - !!inc/file layers/road (bridge)(slash)pedestrian(slash)line.yml
   - !!inc/file layers/road (bridge)(slash)other(slash)line.yml
   - !!inc/file layers/road (bridge)(slash)living street(slash)line.yml
-  - !!inc/file layers/road (bridge)(slash)residential,
-    unclassified(slash)line.yml
+  - !!inc/file layers/road (bridge)(slash)residential, unclassified(slash)line.yml
   - !!inc/file layers/road link (bridge)(slash)tertiary(slash)line.yml
   - !!inc/file layers/road (bridge)(slash)tertiary(slash)line.yml
   - !!inc/file layers/road link (bridge)(slash)secondary(slash)line.yml
@@ -742,22 +618,14 @@ layers:
   - !!inc/file layers/road (bridge)(slash)primary(slash)line.yml
   - !!inc/file layers/road (bridge)(slash)trunk(slash)line.yml
   - !!inc/file layers/road (bridge)(slash)motorway(slash)line.yml
-  - !!inc/file layers/road (bridge) (access type)(slash)service road (minor) (no
-    public access).yml
-  - !!inc/file layers/road (bridge) (access type)(slash)service road (normal)
-    (no public access).yml
-  - !!inc/file layers/road (bridge) (access type)(slash)living street (no public
-    access).yml
-  - !!inc/file layers/road (bridge) (access type)(slash)motorway, trunk,
-    primary, secondary, tertiary, residential road (no public access).yml
-  - !!inc/file layers/road (bridge) (access type)(slash)service road (minor)
-    (destination access only).yml
-  - !!inc/file layers/road (bridge) (access type)(slash)service road (normal)
-    (destination access only).yml
-  - !!inc/file layers/road (bridge) (access type)(slash)living street
-    (destination access only).yml
-  - !!inc/file layers/road (bridge) (access type)(slash)secondary, tertiary,
-    residential road (destination access only).yml
+  - !!inc/file layers/road (bridge) (access type)(slash)service road (minor) (no public access).yml
+  - !!inc/file layers/road (bridge) (access type)(slash)service road (normal) (no public access).yml
+  - !!inc/file layers/road (bridge) (access type)(slash)living street (no public access).yml
+  - !!inc/file layers/road (bridge) (access type)(slash)motorway, trunk, primary, secondary, tertiary, residential road (no public access).yml
+  - !!inc/file layers/road (bridge) (access type)(slash)service road (minor) (destination access only).yml
+  - !!inc/file layers/road (bridge) (access type)(slash)service road (normal) (destination access only).yml
+  - !!inc/file layers/road (bridge) (access type)(slash)living street (destination access only).yml
+  - !!inc/file layers/road (bridge) (access type)(slash)secondary, tertiary, residential road (destination access only).yml
   - !!inc/file layers/guideway(slash)casing.yml
   - !!inc/file layers/guideway(slash)line.yml
   - !!inc/file layers/entrance(slash)no access.yml
@@ -791,13 +659,10 @@ layers:
   - !!inc/file layers/tree row.yml
   - !!inc/file layers/station area(slash)aerialway station, halt.yml
   - !!inc/file layers/station area(slash)tram stop.yml
-  - !!inc/file layers/Daylight address
-    area(slash)label(slash)Number(slash)Unit.yml
+  - !!inc/file layers/Daylight address area(slash)label(slash)Number(slash)Unit.yml
   - !!inc/file layers/OSM address area(slash)label(slash)Number(slash)Name.yml
-  - !!inc/file layers/OSM address
-    area(slash)label(slash)Number(slash)Unit(slash)Name.yml
-  - !!inc/file layers/OSM address
-    area(slash)label(slash)Number(slash)Flat(slash)Name.yml
+  - !!inc/file layers/OSM address area(slash)label(slash)Number(slash)Unit(slash)Name.yml
+  - !!inc/file layers/OSM address area(slash)label(slash)Number(slash)Flat(slash)Name.yml
   - !!inc/file layers/OSM address point(slash)Number(slash)Name.yml
   - !!inc/file layers/OSM address point(slash)Number(slash)Unit(slash)Name.yml
   - !!inc/file layers/OSM address point(slash)Number(slash)Flat(slash)Name.yml
@@ -1029,8 +894,7 @@ layers:
   - !!inc/file layers/crane area.yml
   - !!inc/file layers/wind turbine area.yml
   - !!inc/file layers/castle area(slash)other.yml
-  - !!inc/file layers/castle area(slash)castrum, defensive, fortress, kremlin,
-    shiro.yml
+  - !!inc/file layers/castle area(slash)castrum, defensive, fortress, kremlin, shiro.yml
   - !!inc/file layers/castle area(slash)manor.yml
   - !!inc/file layers/castle area(slash)palace, stately.yml
   - !!inc/file layers/place of worship area(slash)other.yml
@@ -1041,8 +905,7 @@ layers:
   - !!inc/file layers/place of worship area(slash)Jewish.yml
   - !!inc/file layers/place of worship area(slash)Hindu.yml
   - !!inc/file layers/place of worship area(slash)Christian - other.yml
-  - !!inc/file layers/place of worship area(slash)Christian - Jehovah's
-    Witness.yml
+  - !!inc/file layers/place of worship area(slash)Christian - Jehovah's Witness.yml
   - !!inc/file layers/place of worship area(slash)Buddhist.yml
   - !!inc/file layers/recycling place area(slash)private.yml
   - !!inc/file layers/recycling place area(slash)public.yml
@@ -1076,29 +939,24 @@ layers:
   - !!inc/file layers/power pole.yml
   - !!inc/file layers/interpolation.yml
   - !!inc/file layers/amenity point (low priority)(slash)kissing gate.yml
-  - !!inc/file layers/amenity point (low priority)(slash)full-height
-    turnstile.yml
+  - !!inc/file layers/amenity point (low priority)(slash)full-height turnstile.yml
   - !!inc/file layers/amenity point (low priority)(slash)cycle barrier.yml
   - !!inc/file layers/amenity point (low priority)(slash)motorcycle barrier.yml
   - !!inc/file layers/amenity point (low priority)(slash)stile.yml
   - !!inc/file layers/amenity point (low priority)(slash)cattle grid.yml
-  - !!inc/file layers/amenity point (low priority)(slash)railway level
-    crossing.yml
+  - !!inc/file layers/amenity point (low priority)(slash)railway level crossing.yml
   - !!inc/file layers/amenity point (low priority)(slash)railway crossing.yml
   - !!inc/file layers/amenity point (low priority)(slash)mini roundabout.yml
   - !!inc/file layers/amenity point (low priority)(slash)bench.yml
   - !!inc/file layers/amenity point (low priority)(slash)waste basket.yml
   - !!inc/file layers/amenity point (low priority)(slash)gate.yml
-  - !!inc/file layers/amenity point (low priority)(slash)lift gate, swing
-    gate.yml
+  - !!inc/file layers/amenity point (low priority)(slash)lift gate, swing gate.yml
   - !!inc/file layers/amenity point (low priority)(slash)block, bollard, log.yml
-  - !!inc/file layers/amenity area (low priority)(slash)full-height
-    turnstile.yml
+  - !!inc/file layers/amenity area (low priority)(slash)full-height turnstile.yml
   - !!inc/file layers/amenity area (low priority)(slash)stile.yml
   - !!inc/file layers/amenity area (low priority)(slash)cattle grid.yml
   - !!inc/file layers/amenity area (low priority)(slash)gate.yml
-  - !!inc/file layers/amenity area (low priority)(slash)lift gate, swing
-    gate.yml
+  - !!inc/file layers/amenity area (low priority)(slash)lift gate, swing gate.yml
   - !!inc/file layers/amenity area (low priority)(slash)block, bollard, log.yml
   - !!inc/file layers/junction point(slash)exit name and number.yml
   - !!inc/file layers/junction point(slash)exit number.yml
@@ -1109,10 +967,8 @@ layers:
   - !!inc/file layers/service road (tunnel)(slash)label(slash)Default.yml
   - !!inc/file layers/road (tunnel)(slash)label(slash)pedestrian.yml
   - !!inc/file layers/road (tunnel)(slash)label(slash)living street.yml
-  - !!inc/file layers/road (tunnel)(slash)label(slash)residential, unclassified
-    shield text.yml
-  - !!inc/file layers/road (tunnel)(slash)label(slash)residential, unclassified
-    name.yml
+  - !!inc/file layers/road (tunnel)(slash)label(slash)residential, unclassified shield text.yml
+  - !!inc/file layers/road (tunnel)(slash)label(slash)residential, unclassified name.yml
   - !!inc/file layers/road (tunnel)(slash)label(slash)tertiary name.yml
   - !!inc/file layers/road (tunnel)(slash)label(slash)secondary name.yml
   - !!inc/file layers/road (tunnel)(slash)label(slash)primary name.yml
@@ -1131,8 +987,7 @@ layers:
   - !!inc/file layers/road(slash)label(slash)raceway.yml
   - !!inc/file layers/road(slash)label(slash)pedestrian.yml
   - !!inc/file layers/road(slash)label(slash)living street.yml
-  - !!inc/file layers/road(slash)label(slash)residential, unclassified shield
-    text.yml
+  - !!inc/file layers/road(slash)label(slash)residential, unclassified shield text.yml
   - !!inc/file layers/road(slash)label(slash)residential, unclassified name.yml
   - !!inc/file layers/road(slash)label(slash)tertiary name.yml
   - !!inc/file layers/road(slash)label(slash)secondary name.yml
@@ -1144,63 +999,39 @@ layers:
   - !!inc/file layers/road(slash)label(slash)primary shield.yml
   - !!inc/file layers/road(slash)label(slash)trunk shield.yml
   - !!inc/file layers/road(slash)label(slash)motorway shield.yml
-  - !!inc/file layers/road (tunnel) (under
-    construction)(slash)label(slash)other.yml
-  - !!inc/file layers/road (tunnel) (under
-    construction)(slash)label(slash)raceway.yml
-  - !!inc/file layers/road (tunnel) (under
-    construction)(slash)label(slash)service.yml
-  - !!inc/file layers/road (tunnel) (under
-    construction)(slash)label(slash)pedestrian.yml
-  - !!inc/file layers/road (tunnel) (under
-    construction)(slash)label(slash)living street.yml
-  - !!inc/file layers/road (tunnel) (under
-    construction)(slash)label(slash)bridleway, cycleway, steps.yml
-  - !!inc/file layers/road (tunnel) (under
-    construction)(slash)label(slash)tertiary.yml
-  - !!inc/file layers/road (tunnel) (under
-    construction)(slash)label(slash)secondary.yml
-  - !!inc/file layers/road (tunnel) (under
-    construction)(slash)label(slash)primary.yml
-  - !!inc/file layers/road (tunnel) (under
-    construction)(slash)label(slash)trunk.yml
-  - !!inc/file layers/road (tunnel) (under
-    construction)(slash)label(slash)motorway.yml
+  - !!inc/file layers/road (tunnel) (under construction)(slash)label(slash)other.yml
+  - !!inc/file layers/road (tunnel) (under construction)(slash)label(slash)raceway.yml
+  - !!inc/file layers/road (tunnel) (under construction)(slash)label(slash)service.yml
+  - !!inc/file layers/road (tunnel) (under construction)(slash)label(slash)pedestrian.yml
+  - !!inc/file layers/road (tunnel) (under construction)(slash)label(slash)living street.yml
+  - !!inc/file layers/road (tunnel) (under construction)(slash)label(slash)bridleway, cycleway, steps.yml
+  - !!inc/file layers/road (tunnel) (under construction)(slash)label(slash)tertiary.yml
+  - !!inc/file layers/road (tunnel) (under construction)(slash)label(slash)secondary.yml
+  - !!inc/file layers/road (tunnel) (under construction)(slash)label(slash)primary.yml
+  - !!inc/file layers/road (tunnel) (under construction)(slash)label(slash)trunk.yml
+  - !!inc/file layers/road (tunnel) (under construction)(slash)label(slash)motorway.yml
   - !!inc/file layers/road (under construction)(slash)label(slash)other.yml
   - !!inc/file layers/road (under construction)(slash)label(slash)raceway.yml
   - !!inc/file layers/road (under construction)(slash)label(slash)service.yml
   - !!inc/file layers/road (under construction)(slash)label(slash)pedestrian.yml
-  - !!inc/file layers/road (under construction)(slash)label(slash)living
-    street.yml
-  - !!inc/file layers/road (under construction)(slash)label(slash)bridleway,
-    cycleway, steps.yml
+  - !!inc/file layers/road (under construction)(slash)label(slash)living street.yml
+  - !!inc/file layers/road (under construction)(slash)label(slash)bridleway, cycleway, steps.yml
   - !!inc/file layers/road (under construction)(slash)label(slash)tertiary.yml
   - !!inc/file layers/road (under construction)(slash)label(slash)secondary.yml
   - !!inc/file layers/road (under construction)(slash)label(slash)primary.yml
   - !!inc/file layers/road (under construction)(slash)label(slash)trunk.yml
   - !!inc/file layers/road (under construction)(slash)label(slash)motorway.yml
-  - !!inc/file layers/road (bridge) (under
-    construction)(slash)label(slash)other.yml
-  - !!inc/file layers/road (bridge) (under
-    construction)(slash)label(slash)raceway.yml
-  - !!inc/file layers/road (bridge) (under
-    construction)(slash)label(slash)service.yml
-  - !!inc/file layers/road (bridge) (under
-    construction)(slash)label(slash)pedestrian.yml
-  - !!inc/file layers/road (bridge) (under
-    construction)(slash)label(slash)living street.yml
-  - !!inc/file layers/road (bridge) (under
-    construction)(slash)label(slash)bridleway, cycleway, steps.yml
-  - !!inc/file layers/road (bridge) (under
-    construction)(slash)label(slash)tertiary.yml
-  - !!inc/file layers/road (bridge) (under
-    construction)(slash)label(slash)secondary.yml
-  - !!inc/file layers/road (bridge) (under
-    construction)(slash)label(slash)primary.yml
-  - !!inc/file layers/road (bridge) (under
-    construction)(slash)label(slash)trunk.yml
-  - !!inc/file layers/road (bridge) (under
-    construction)(slash)label(slash)motorway.yml
+  - !!inc/file layers/road (bridge) (under construction)(slash)label(slash)other.yml
+  - !!inc/file layers/road (bridge) (under construction)(slash)label(slash)raceway.yml
+  - !!inc/file layers/road (bridge) (under construction)(slash)label(slash)service.yml
+  - !!inc/file layers/road (bridge) (under construction)(slash)label(slash)pedestrian.yml
+  - !!inc/file layers/road (bridge) (under construction)(slash)label(slash)living street.yml
+  - !!inc/file layers/road (bridge) (under construction)(slash)label(slash)bridleway, cycleway, steps.yml
+  - !!inc/file layers/road (bridge) (under construction)(slash)label(slash)tertiary.yml
+  - !!inc/file layers/road (bridge) (under construction)(slash)label(slash)secondary.yml
+  - !!inc/file layers/road (bridge) (under construction)(slash)label(slash)primary.yml
+  - !!inc/file layers/road (bridge) (under construction)(slash)label(slash)trunk.yml
+  - !!inc/file layers/road (bridge) (under construction)(slash)label(slash)motorway.yml
   - !!inc/file layers/other path (bridge)(slash)label(slash)Default.yml
   - !!inc/file layers/path (bridge)(slash)label(slash)Default.yml
   - !!inc/file layers/track (bridge)(slash)label(slash)alternate name.yml
@@ -1208,10 +1039,8 @@ layers:
   - !!inc/file layers/service road (bridge)(slash)label(slash)Default.yml
   - !!inc/file layers/road (bridge)(slash)label(slash)pedestrian.yml
   - !!inc/file layers/road (bridge)(slash)label(slash)living street.yml
-  - !!inc/file layers/road (bridge)(slash)label(slash)residential, unclassified
-    shield text.yml
-  - !!inc/file layers/road (bridge)(slash)label(slash)residential, unclassified
-    name.yml
+  - !!inc/file layers/road (bridge)(slash)label(slash)residential, unclassified shield text.yml
+  - !!inc/file layers/road (bridge)(slash)label(slash)residential, unclassified name.yml
   - !!inc/file layers/road (bridge)(slash)label(slash)tertiary name.yml
   - !!inc/file layers/road (bridge)(slash)label(slash)secondary name.yml
   - !!inc/file layers/road (bridge)(slash)label(slash)primary name.yml
@@ -1283,8 +1112,7 @@ layers:
   - !!inc/file layers/amenity area(slash)label(slash)aeroway gate.yml
   - !!inc/file layers/amenity area(slash)label(slash)parking.yml
   - !!inc/file layers/amenity area(slash)label(slash)storage tank.yml
-  - !!inc/file layers/amenity area(slash)label(slash)places to
-    eat(slash)drink.yml
+  - !!inc/file layers/amenity area(slash)label(slash)places to eat(slash)drink.yml
   - !!inc/file layers/amenity area(slash)label(slash)all other office.yml
   - !!inc/file layers/amenity area(slash)label(slash)medium office.yml
   - !!inc/file layers/amenity area(slash)label(slash)embassy, consulate.yml
@@ -1292,14 +1120,12 @@ layers:
   - !!inc/file layers/amenity area(slash)label(slash)driving school.yml
   - !!inc/file layers/amenity area(slash)label(slash)childcare.yml
   - !!inc/file layers/amenity area(slash)label(slash)accommodation.yml
-  - !!inc/file layers/amenity area(slash)label(slash)cultural, public service,
-    tourism.yml
+  - !!inc/file layers/amenity area(slash)label(slash)cultural, public service, tourism.yml
   - !!inc/file layers/amenity area(slash)label(slash)transportation.yml
   - !!inc/file layers/amenity area(slash)label(slash)marketplace.yml
   - !!inc/file layers/amenity area(slash)label(slash)viewpoint.yml
   - !!inc/file layers/amenity area(slash)label(slash)tower, city gate.yml
-  - !!inc/file layers/amenity area(slash)label(slash)bicycle repair,
-    bookcase.yml
+  - !!inc/file layers/amenity area(slash)label(slash)bicycle repair, bookcase.yml
   - !!inc/file layers/amenity area(slash)label(slash)monument or fort.yml
   - !!inc/file layers/amenity area(slash)label(slash)bunker.yml
   - !!inc/file layers/amenity area(slash)label(slash)golf course.yml
@@ -1318,8 +1144,7 @@ layers:
   - !!inc/file layers/shop area(slash)label(slash)mall.yml
   - !!inc/file layers/shop area(slash)label(slash)massage.yml
   - !!inc/file layers/shop area(slash)label(slash)all other.yml
-  - !!inc/file layers/shop area(slash)label(slash)supermarket, department
-    store.yml
+  - !!inc/file layers/shop area(slash)label(slash)supermarket, department store.yml
   - !!inc/file layers/memorial area(slash)label(slash)plaque.yml
   - !!inc/file layers/memorial area(slash)label(slash)bust, stele, stone.yml
   - !!inc/file layers/memorial area(slash)label(slash)artwork, memorial.yml
@@ -1331,8 +1156,7 @@ layers:
   - !!inc/file layers/private access area(slash)label(slash)leisure.yml
   - !!inc/file layers/private access area(slash)label(slash)outdoor amenity.yml
   - !!inc/file layers/private access area(slash)label(slash)charging station.yml
-  - !!inc/file layers/private access area(slash)label(slash)bicycle repair
-    station.yml
+  - !!inc/file layers/private access area(slash)label(slash)bicycle repair station.yml
   - !!inc/file layers/private access area(slash)label(slash)parking.yml
   - !!inc/file layers/aerodrome area(slash)label(slash)Default.yml
   - !!inc/file layers/tower area(slash)label(slash)Default.yml
@@ -1362,8 +1186,7 @@ layers:
   - !!inc/file layers/water barrier point(slash)weir.yml
   - !!inc/file layers/water barrier point(slash)dam.yml
   - !!inc/file layers/water barrier point(slash)label(slash)dam, weir.yml
-  - !!inc/file layers/water line (intermittent)(slash)label(slash)ditch,
-    drain.yml
+  - !!inc/file layers/water line (intermittent)(slash)label(slash)ditch, drain.yml
   - !!inc/file layers/water line (intermittent)(slash)label(slash)stream.yml
   - !!inc/file layers/water line (intermittent)(slash)label(slash)canal.yml
   - !!inc/file layers/water line (intermittent)(slash)label(slash)river.yml
@@ -1625,8 +1448,7 @@ layers:
   - !!inc/file layers/wind turbine point.yml
   - !!inc/file layers/waterfall.yml
   - !!inc/file layers/castle point(slash)other.yml
-  - !!inc/file layers/castle point(slash)castrum, defensive, fortress, kremlin,
-    shiro.yml
+  - !!inc/file layers/castle point(slash)castrum, defensive, fortress, kremlin, shiro.yml
   - !!inc/file layers/castle point(slash)manor.yml
   - !!inc/file layers/castle point(slash)palace, stately.yml
   - !!inc/file layers/place of worship point(slash)other.yml
@@ -1637,8 +1459,7 @@ layers:
   - !!inc/file layers/place of worship point(slash)Jewish.yml
   - !!inc/file layers/place of worship point(slash)Hindu.yml
   - !!inc/file layers/place of worship point(slash)Christian - other.yml
-  - !!inc/file layers/place of worship point(slash)Christian - Jehovah's
-    Witness.yml
+  - !!inc/file layers/place of worship point(slash)Christian - Jehovah's Witness.yml
   - !!inc/file layers/place of worship point(slash)Buddhist.yml
   - !!inc/file layers/recycling place point(slash)private.yml
   - !!inc/file layers/recycling place point(slash)public.yml
