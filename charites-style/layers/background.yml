@@ -1,4 +1,5 @@
 id: background
 type: background
 paint:
-  background-color: '#F2EFE9'
+#  background-color: '#F2EFE9'
+  background-color: '#FFFFCC'

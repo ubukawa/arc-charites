@@ -5,4 +5,5 @@ source-layer: ocean (small scale)
 maxzoom: 9
 paint:
   fill-antialias: false
-  fill-color: '#aad3df'
+#  fill-color: '#aad3df'
+  fill-color: '#3333FF'
