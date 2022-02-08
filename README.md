@@ -9,8 +9,10 @@ test of unvt/charites for ArcGIS online style
 This is from Esri Vector Basemaps (Viewable by: Everyone (public))
 https://www.arcgis.com/home/group.html?id=30de8da907d240a0bccd5ad3ff25ef4a#overview
 
-# Tool
-UNVT/charites https://github.com/unvt/charites
+# Tool used
+* UNVT/charites https://github.com/unvt/charites
+* UNVT/nanban
+
 
 
 
